@@ -1,53 +1,100 @@
-import json
 from pathlib import Path
+from requests.exceptions import ReadTimeout, RequestException
 
 from collector import TrackerClient, build_request_body
-from extractor import jobs_to_dataframe
-from keywords import TECH_KEYWORDS
+from extractor import save_jobs_json, save_jobs_csv
 
 
-def save_keyword_results(client: TrackerClient, keyword: str) -> None:
-    raw_dir = Path("data/raw")
-    processed_dir = Path("data/processed")
+KEYWORDS = [
+    "assistant",
+    "administrator",
+    "office",
+    "coordinator",
+    "support",
+    "customer service",
+    "sales",
+    "marketing",
+    "hr",
+    "recruiter",
+    "analyst",
+    "project manager",
+    "operations",
+    "secretary",
+    "communication",
+    "data entry",
+    "developer",
+    "software engineer",
+]
 
-    raw_dir.mkdir(parents=True, exist_ok=True)
-    processed_dir.mkdir(parents=True, exist_ok=True)
+LOCATION_CODE = "EL"
+MAX_PAGES = 3
 
-    body = build_request_body(
-        keywords=[keyword],
-        keywords_logic="or",
-        location_code=["EL"],
+
+def slugify_keyword(text: str) -> str:
+    return (
+        text.lower()
+        .replace(" ", "_")
+        .replace("/", "_")
+        .replace(".", "dot")
     )
 
-    print(f"\nRunning keyword: {keyword}")
-    print("Request body:", body)
 
-    items = client.fetch_all_jobs(body=body, max_pages=1)
-    print(f"Total fetched items: {len(items)}")
+def main():
+    Path("data/raw").mkdir(parents=True, exist_ok=True)
+    Path("data/processed").mkdir(parents=True, exist_ok=True)
 
-    keyword_part = keyword.replace(" ", "_").replace(".", "dot").lower()
-    location_part = "_".join(body.get("location_code", ["all"])).lower()
+    client = TrackerClient()
 
-    raw_path = raw_dir / f"jobs_{keyword_part}_{location_part}.json"
-    with open(raw_path, "w", encoding="utf-8") as f:
-        json.dump(items, f, ensure_ascii=False, indent=2)
+    failed_keywords = []
 
-    df = jobs_to_dataframe(items)
-    csv_path = processed_dir / f"jobs_{keyword_part}_{location_part}.csv"
-    df.to_csv(csv_path, index=False, encoding="utf-8-sig")
+    for keyword in KEYWORDS:
+        print(f"\nRunning keyword: {keyword}")
 
-    print(f"Saved raw JSON to: {raw_path}")
-    print(f"Saved CSV to: {csv_path}")
+        body = build_request_body(
+            keywords=[keyword],
+            keywords_logic="or",
+            location_code=[LOCATION_CODE],
+        )
 
+        print("Request body:", body)
 
-def main() -> None:
-    client = TrackerClient(page_size=100)
-
-    for keyword in TECH_KEYWORDS:
         try:
-            save_keyword_results(client, keyword)
+            items = client.fetch_all_jobs(body=body, max_pages=MAX_PAGES)
+            print(f"Total fetched items: {len(items)}")
+
+            file_stub = f"jobs_{slugify_keyword(keyword)}_{LOCATION_CODE.lower()}"
+
+            json_path = Path("data/raw") / f"{file_stub}.json"
+            csv_path = Path("data/processed") / f"{file_stub}.csv"
+
+            save_jobs_json(items, json_path)
+            save_jobs_csv(items, csv_path)
+
+            print(f"Saved raw JSON to: {json_path}")
+            print(f"Saved CSV to: {csv_path}")
+
+        except ReadTimeout:
+            print(f"TIMEOUT στο keyword: {keyword}")
+            failed_keywords.append(keyword)
+            continue
+
+        except RequestException as e:
+            print(f"Request error στο keyword '{keyword}': {e}")
+            failed_keywords.append(keyword)
+            continue
+
         except Exception as e:
-            print(f"Error for keyword '{keyword}': {e}")
+            print(f"Unexpected error στο keyword '{keyword}': {e}")
+            failed_keywords.append(keyword)
+            continue
+
+    print("\n=== RUN FINISHED ===")
+    if failed_keywords:
+        print("Keywords που απέτυχαν:")
+        for kw in failed_keywords:
+            print("-", kw)
+    else:
+        print("Όλα τα keywords ολοκληρώθηκαν επιτυχώς.")
 
 
 if __name__ == "__main__":

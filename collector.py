@@ -65,7 +65,7 @@ class TrackerClient:
                 "page_size": self.page_size,
             },
             data=body,
-            timeout=60,
+            timeout=120,
             verify=False,  # προσωρινά λόγω cert issue
         )
         response.raise_for_status()

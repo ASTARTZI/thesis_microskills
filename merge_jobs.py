@@ -1,37 +1,34 @@
+# merge_jobs.py
 from pathlib import Path
 import pandas as pd
 
 
-def main():
-    processed_dir = Path("data/processed")
-    output_dir = Path("data/final")
-    output_dir.mkdir(parents=True, exist_ok=True)
+PROCESSED_DIR = Path("data/processed")
+FINAL_DIR = Path("data/final")
+FINAL_DIR.mkdir(parents=True, exist_ok=True)
 
-    csv_files = list(processed_dir.glob("jobs_*_el.csv"))
+
+def main():
+    csv_files = list(PROCESSED_DIR.glob("*.csv"))
 
     if not csv_files:
-        print("No CSV files found.")
+        print("No CSV files found in data/processed")
         return
 
-    dfs = []
+    frames = []
     for file in csv_files:
         df = pd.read_csv(file)
-        df["retrieval_file"] = file.name
-        dfs.append(df)
+        df["source_file"] = file.name
+        frames.append(df)
 
-    combined = pd.concat(dfs, ignore_index=True)
-    print(f"Combined rows before dedup: {len(combined)}")
+    combined = pd.concat(frames, ignore_index=True)
+    print("Combined rows before dedup:", len(combined))
 
-    # Deduplication
-    if "id" in combined.columns:
-        dedup = combined.drop_duplicates(subset=["id"])
-    else:
-        dedup = combined.drop_duplicates()
+    dedup = combined.drop_duplicates(subset=["id"]).copy()
+    print("Rows after dedup:", len(dedup))
 
-    print(f"Rows after dedup: {len(dedup)}")
-
-    combined_path = output_dir / "all_jobs_combined.csv"
-    dedup_path = output_dir / "all_jobs_deduplicated.csv"
+    combined_path = FINAL_DIR / "all_jobs_combined.csv"
+    dedup_path = FINAL_DIR / "all_jobs_deduplicated.csv"
 
     combined.to_csv(combined_path, index=False, encoding="utf-8-sig")
     dedup.to_csv(dedup_path, index=False, encoding="utf-8-sig")

@@ -1,45 +1,55 @@
+# textprep.py
+from pathlib import Path
 import re
 import pandas as pd
-from pathlib import Path
 
 
-def clean_text(text: str) -> str:
+INPUT_PATH = Path("data/final/all_jobs_deduplicated.csv")
+OUTPUT_PATH = Path("data/final/all_jobs_cleaned.csv")
+
+
+def normalize_text(text: str) -> str:
     if pd.isna(text):
         return ""
 
     text = str(text).lower()
 
-    # αφαίρεση urls
-    text = re.sub(r"http\S+|www\S+", " ", text)
+    # αλλαγές γραμμής / tabs
+    text = text.replace("\n", " ").replace("\r", " ").replace("\t", " ")
 
-    # αφαίρεση line breaks / tabs
-    text = re.sub(r"[\r\n\t]+", " ", text)
+    # βασικός καθαρισμός punctuation
+    text = re.sub(r"[^\w\sάέήίόύώϊΐϋΰ]", " ", text, flags=re.UNICODE)
 
-    # κράτα γράμματα, αριθμούς, βασικά σύμβολα
-    text = re.sub(r"[^\w\s\+#\.]", " ", text)
-
-    # αφαίρεση πολλών κενών
+    # collapse spaces
     text = re.sub(r"\s+", " ", text).strip()
 
     return text
 
 
 def main():
-    input_path = Path("data/final/all_jobs_deduplicated.csv")
-    output_path = Path("data/final/all_jobs_cleaned.csv")
+    if not INPUT_PATH.exists():
+        print(f"Input file not found: {INPUT_PATH}")
+        return
 
-    df = pd.read_csv(input_path)
+    df = pd.read_csv(INPUT_PATH)
 
-    df["title"] = df["title"].fillna("")
-    df["description"] = df["description"].fillna("")
+    if "title" not in df.columns:
+        df["title"] = ""
+    if "description" not in df.columns:
+        df["description"] = ""
 
-    df["combined_text"] = df["title"] + " " + df["description"]
-    df["cleaned_text"] = df["combined_text"].apply(clean_text)
+    df["combined_text"] = (
+        df["title"].fillna("").astype(str) + " " +
+        df["description"].fillna("").astype(str)
+    )
 
-    df.to_csv(output_path, index=False, encoding="utf-8-sig")
+    df["cleaned_text"] = df["combined_text"].apply(normalize_text)
 
-    print(f"Saved cleaned dataset to: {output_path}")
-    print(df[["id", "title", "cleaned_text"]].head())
+    out_df = df[["id", "title", "cleaned_text"]].copy()
+    out_df.to_csv(OUTPUT_PATH, index=False, encoding="utf-8-sig")
+
+    print(f"Saved cleaned dataset to: {OUTPUT_PATH}")
+    print(out_df.head())
 
 
 if __name__ == "__main__":

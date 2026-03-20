@@ -1,25 +1,18 @@
-from typing import Any, Dict, List
+# extractor.py
+import json
 import pandas as pd
+from pathlib import Path
 
 
-def jobs_to_dataframe(items: List[Dict[str, Any]]) -> pd.DataFrame:
-    rows = []
+def save_jobs_json(items, path: Path):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(items, f, ensure_ascii=False, indent=2)
 
-    for item in items:
-        rows.append({
-            "id": item.get("id"),
-            "title": item.get("title"),
-            "description": item.get("description"),
-            "experience_level": item.get("experience_level"),
-            "type": item.get("type"),
-            "location": item.get("location"),
-            "location_code": item.get("location_code"),
-            "upload_date": item.get("upload_date"),
-            "source": item.get("source"),
-            "source_id": item.get("source_id"),
-            "organization": item.get("organization"),
-            "skills": item.get("skills", []),
-            "occupations": item.get("occupations", []),
-        })
 
-    return pd.DataFrame(rows)
+def save_jobs_csv(items, path: Path):
+    if not items:
+        print("No items to save.")
+        return
+
+    df = pd.DataFrame(items)
+    df.to_csv(path, index=False, encoding="utf-8-sig")
