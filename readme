@@ -1,3 +1,4 @@
+Συγχρονισμός κώδικα με το github
 git add .
 git commit -m "update"
 git push
