@@ -16,3 +16,4 @@ if not TRACKER_USERNAME:
 
 if not TRACKER_PASSWORD:
     raise RuntimeError("Missing TRACKER_PASSWORD in .env")
+

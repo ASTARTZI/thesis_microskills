@@ -16,3 +16,4 @@ TECH_KEYWORDS = [
     "data analyst",
     "data engineer",
 ]
+

@@ -16,3 +16,5 @@ def save_jobs_csv(items, path: Path):
 
     df = pd.DataFrame(items)
     df.to_csv(path, index=False, encoding="utf-8-sig")
+    
+    
