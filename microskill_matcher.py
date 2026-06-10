@@ -4,14 +4,22 @@ import json
 import pandas as pd
 
 
+# Αρχείο εισόδου με τις καθαρισμένες αγγελίες.
 CLEANED_JOBS_PATH = Path("data/final/all_jobs_cleaned.csv")
+
+# Αρχείο λεξικού που περιέχει τα microskills, τις κατηγορίες και τα σχετικά keywords.
 LEXICON_PATH = Path("MicroSkillsLexicon.xlsx")
+
+# Αρχείο εξόδου όπου θα αποθηκευτούν τα αποτελέσματα της ανίχνευσης microskills.
 OUTPUT_PATH = Path("data/final/jobs_with_microskills.csv")
 
 
+# Μέγιστος αριθμός microskills που κρατούνται ανά αγγελία.
+# Χρησιμοποιείται για να αποφεύγονται υπερβολικά πολλά ή αδύναμα matches.
 MAX_MICROSKILLS_PER_JOB = 6
 
 
+# Αγγλικά stopwords και συχνές γενικές λέξεις που αφαιρούνται από το κείμενο.
 EN_STOPWORDS = {
     "a", "an", "the", "and", "or", "but", "if", "while", "of", "at", "by", "for",
     "with", "without", "about", "against", "between", "into", "through", "during",
@@ -27,6 +35,7 @@ EN_STOPWORDS = {
     "responsible", "responsibilities", "candidate", "required", "requirements"
 }
 
+# Ελληνικά stopwords και γενικές λέξεις που δεν βοηθούν ουσιαστικά στην ανίχνευση microskills.
 GR_STOPWORDS = {
     "ο", "η", "το", "οι", "τα", "του", "της", "των", "τον", "την", "τους", "τις",
     "και", "ή", "σε", "στο", "στη", "στην", "στον", "στα", "στις", "στους", "με",
@@ -37,9 +46,11 @@ GR_STOPWORDS = {
     "υποψηφιος", "δεξιότητες", "δεξιοτητες", "γνώση", "γνωση", "εμπειρία", "εμπειρια"
 }
 
+# Ενιαίο σύνολο stopwords για ελληνικά και αγγλικά κείμενα.
 STOPWORDS = EN_STOPWORDS | GR_STOPWORDS
 
 
+# Μονολεκτικοί όροι που θεωρούνται πολύ γενικοί και δεν χρησιμοποιούνται μόνοι τους ως ισχυρές ενδείξεις.
 GENERIC_SINGLE_WORDS = {
     "communication", "management", "organization", "organisation", "support",
     "customer", "client", "business", "project", "process", "quality",
@@ -53,6 +64,7 @@ GENERIC_SINGLE_WORDS = {
 }
 
 
+# Μονολεκτικοί όροι που θεωρούνται αρκετά συγκεκριμένοι ώστε να μπορούν να ενεργοποιήσουν match.
 STRONG_SINGLE_WORD_KEYWORDS = {
     "chatgpt", "openai", "genai", "automation", "automate", "automated",
     "scripting", "scripts", "macros", "vba", "rpa", "zapier",
@@ -64,6 +76,7 @@ STRONG_SINGLE_WORD_KEYWORDS = {
 }
 
 
+# Χειροκίνητος πίνακας για απλή κανονικοποίηση συγκεκριμένων αγγλικών ανώμαλων τύπων.
 IRREGULAR_EN_LEMMAS = {
     "children": "child",
     "people": "person",
@@ -74,6 +87,8 @@ IRREGULAR_EN_LEMMAS = {
 }
 
 
+# Πρόσθετα keywords ανά microskill, ώστε να εμπλουτιστεί το αρχικό λεξικό.
+# Περιλαμβάνουν συχνές εκφράσεις που εμφανίζονται σε αγγελίες εργασίας.
 EXTRA_KEYWORDS_BY_MICROSKILL = {
     "Σύνταξη επαγγελματικών email": [
         "email communication",
@@ -249,6 +264,8 @@ EXTRA_KEYWORDS_BY_MICROSKILL = {
 }
 
 
+# Σημασιολογικές ομάδες όρων ανά microskill.
+# Ένα microskill ανιχνεύεται επιπλέον όταν συνυπάρχουν όλοι οι όροι μιας ομάδας στο κείμενο.
 SEMANTIC_GROUPS_BY_MICROSKILL = {
     "Σαφής και συνοπτική επικοινωνία": [
         ["communication", "client"],
@@ -301,6 +318,8 @@ SEMANTIC_GROUPS_BY_MICROSKILL = {
 
 
 def normalize_text(text: str) -> str:
+    # Κανονικοποιεί το κείμενο: πεζά γράμματα, αφαίρεση ειδικών χαρακτήρων
+    # και ενοποίηση πολλαπλών κενών.
     if pd.isna(text):
         return ""
 
@@ -316,6 +335,8 @@ def normalize_text(text: str) -> str:
 
 
 def simple_english_lemma(token: str) -> str:
+    # Εφαρμόζει απλή κανονικοποίηση αγγλικών λέξεων ώστε παρόμοιοι τύποι
+    # να αντιστοιχίζονται σε κοινή μορφή.
     if token in IRREGULAR_EN_LEMMAS:
         return IRREGULAR_EN_LEMMAS[token]
 
@@ -347,6 +368,8 @@ def simple_english_lemma(token: str) -> str:
 
 
 def simple_greek_lemma(token: str) -> str:
+    # Εφαρμόζει απλή αποκοπή ελληνικών καταλήξεων,
+    # ώστε διαφορετικές κλιτές μορφές να συγκρίνονται πιο εύκολα.
     if len(token) <= 4:
         return token
 
@@ -365,6 +388,7 @@ def simple_greek_lemma(token: str) -> str:
 
 
 def lemmatize_token(token: str) -> str:
+    # Επιλέγει απλή αγγλική ή ελληνική κανονικοποίηση ανάλογα με το αλφάβητο του token.
     if re.search(r"[a-z]", token):
         return simple_english_lemma(token)
 
@@ -375,6 +399,8 @@ def lemmatize_token(token: str) -> str:
 
 
 def preprocess_text(text: str, remove_stopwords: bool = True, lemmatize: bool = True) -> str:
+    # Προεπεξεργάζεται το κείμενο πριν την αντιστοίχιση με το λεξικό:
+    # κανονικοποίηση, tokenization, αφαίρεση stopwords και προαιρετικό lemmatization.
     text = normalize_text(text)
     tokens = text.split()
 
@@ -394,6 +420,8 @@ def preprocess_text(text: str, remove_stopwords: bool = True, lemmatize: bool = 
 
 
 def parse_keywords(value: str) -> list[str]:
+    # Διαβάζει τα keywords από το lexicon και τα μετατρέπει σε λίστα όρων.
+    # Υποστηρίζει διαχωρισμό με κόμμα, ελληνικό ερωτηματικό/semicolon, κάθετη γραμμή ή αλλαγή γραμμής.
     if pd.isna(value):
         return []
 
@@ -408,6 +436,8 @@ def parse_keywords(value: str) -> list[str]:
 
 
 def expand_keyword_variants(keyword: str) -> list[str]:
+    # Δημιουργεί παραλλαγές ενός keyword, ώστε να καλύπτονται διαφορετικές γραφές
+    # όπως British/American English ή ενωμένες/χωρισμένες λέξεις.
     keyword = normalize_text(keyword)
 
     if not keyword:
@@ -444,12 +474,15 @@ def expand_keyword_variants(keyword: str) -> list[str]:
         if new in keyword:
             variants.add(keyword.replace(new, old))
 
+    # Προσθέτει και προεπεξεργασμένες μορφές των παραλλαγών.
     processed_variants = {preprocess_text(v) for v in variants if v}
 
     return sorted({v for v in variants | processed_variants if v})
 
 
 def is_useful_keyword(keyword: str) -> bool:
+    # Ελέγχει αν ένα keyword είναι αρκετά συγκεκριμένο ώστε να χρησιμοποιηθεί στην αντιστοίχιση.
+    # Απορρίπτει πολύ γενικούς ή αδύναμους όρους που θα δημιουργούσαν πολλά ψευδώς θετικά αποτελέσματα.
     keyword = preprocess_text(keyword)
 
     if not keyword:
@@ -505,6 +538,7 @@ def is_useful_keyword(keyword: str) -> bool:
 
 
 def load_lexicon(path: Path) -> pd.DataFrame:
+    # Φορτώνει το αρχείο lexicon και ελέγχει ότι περιέχει τις απαραίτητες στήλες.
     df = pd.read_excel(path)
 
     required_cols = [
@@ -522,19 +556,23 @@ def load_lexicon(path: Path) -> pd.DataFrame:
 
     df = df.copy()
 
+    # Καθαρίζει βασικές στήλες του lexicon από κενές τιμές και περιττά κενά.
     df["Microskills"] = df["Microskills"].fillna("").astype(str).str.strip()
     df["Categories Micro-skills (GR)"] = (
         df["Categories Micro-skills (GR)"].fillna("").astype(str).str.strip()
     )
 
+    # Μετατρέπει τα keywords του lexicon σε λίστες.
     df["keyword_list"] = df["Keywords"].apply(parse_keywords)
 
+    # Εμπλουτίζει τα keywords με πρόσθετους όρους που έχουν οριστεί χειροκίνητα ανά microskill.
     df["keyword_list"] = df.apply(
         lambda row: row["keyword_list"]
         + EXTRA_KEYWORDS_BY_MICROSKILL.get(row["Microskills"], []),
         axis=1,
     )
 
+    # Δημιουργεί παραλλαγές keywords και κρατά μόνο όσες θεωρούνται χρήσιμες για matching.
     df["keyword_list"] = df["keyword_list"].apply(
         lambda keywords: sorted(
             set(
@@ -546,6 +584,7 @@ def load_lexicon(path: Path) -> pd.DataFrame:
         )
     )
 
+    # Συνδέει κάθε microskill με τις αντίστοιχες σημασιολογικές ομάδες όρων.
     df["semantic_groups"] = df["Microskills"].apply(
         lambda m: [
             [preprocess_text(term) for term in group if preprocess_text(term)]
@@ -557,6 +596,7 @@ def load_lexicon(path: Path) -> pd.DataFrame:
 
 
 def build_matcher_entries(lexicon_df: pd.DataFrame) -> list[dict]:
+    # Δημιουργεί τις εγγραφές αντιστοίχισης keyword-microskill-category από το lexicon.
     entries = []
     seen = set()
 
@@ -572,6 +612,7 @@ def build_matcher_entries(lexicon_df: pd.DataFrame) -> list[dict]:
 
             key = (keyword, microskill)
 
+            # Αποφεύγει διπλές εγγραφές για το ίδιο keyword και microskill.
             if key in seen:
                 continue
 
@@ -583,12 +624,14 @@ def build_matcher_entries(lexicon_df: pd.DataFrame) -> list[dict]:
                 "category": category,
             })
 
+    # Ταξινομεί πρώτα τα μεγαλύτερα keywords, ώστε οι πιο συγκεκριμένες φράσεις να έχουν προτεραιότητα.
     entries.sort(key=lambda x: len(x["keyword"]), reverse=True)
 
     return entries
 
 
 def build_semantic_entries(lexicon_df: pd.DataFrame) -> list[dict]:
+    # Δημιουργεί τις εγγραφές για σημασιολογική αντιστοίχιση με βάση ομάδες όρων.
     entries = []
 
     for _, row in lexicon_df.iterrows():
@@ -609,6 +652,9 @@ def build_semantic_entries(lexicon_df: pd.DataFrame) -> list[dict]:
 
 
 def keyword_matches_text(keyword: str, padded_text: str, tokens: set[str]) -> bool:
+    # Ελέγχει αν ένα keyword υπάρχει στο κείμενο.
+    # Για μονολεκτικά keywords χρησιμοποιεί σύγκριση με tokens,
+    # ενώ για φράσεις ελέγχει την πλήρη εμφάνιση μέσα στο κείμενο.
     keyword_tokens = keyword.split()
 
     if len(keyword_tokens) == 1:
@@ -622,12 +668,15 @@ def detect_microskills_in_text(
     keyword_entries: list[dict],
     semantic_entries: list[dict]
 ):
+    # Εφαρμόζει τον μηχανισμό ανίχνευσης microskills σε ένα κείμενο αγγελίας.
+    # Συνδυάζει αυστηρό keyword matching και απλή σημασιολογική αντιστοίχιση.
     processed_text = preprocess_text(text)
     padded_text = f" {processed_text} "
     tokens = set(processed_text.split())
 
     scores = {}
 
+    # Πρώτο στάδιο: αντιστοίχιση με keywords και φράσεις από το lexicon.
     for entry in keyword_entries:
         keyword = entry["keyword"]
 
@@ -643,12 +692,15 @@ def detect_microskills_in_text(
                     "semantic_groups": [],
                 }
 
+            # Οι φράσεις δύο ή περισσότερων λέξεων παίρνουν μεγαλύτερο βάρος από τα μονολεκτικά keywords.
             keyword_score = 2 if len(keyword.split()) >= 2 else 1
             scores[microskill]["score"] += keyword_score
 
+            # Κρατά περιορισμένα στοιχεία τεκμηρίωσης για το τι προκάλεσε το match.
             if len(scores[microskill]["keywords"]) < 5:
                 scores[microskill]["keywords"].append(keyword)
 
+    # Δεύτερο στάδιο: σημασιολογική αντιστοίχιση όταν συνυπάρχουν συγκεκριμένοι όροι στο κείμενο.
     for entry in semantic_entries:
         group = entry["group"]
 
@@ -671,6 +723,7 @@ def detect_microskills_in_text(
             if len(scores[microskill]["semantic_groups"]) < 5:
                 scores[microskill]["semantic_groups"].append(group_text)
 
+    # Ταξινομεί τα microskills με βάση το συνολικό score και τα διαθέσιμα στοιχεία τεκμηρίωσης.
     ranked = sorted(
         scores.items(),
         key=lambda item: (
@@ -681,6 +734,7 @@ def detect_microskills_in_text(
         reverse=True,
     )
 
+    # Περιορίζει τα αποτελέσματα στα σημαντικότερα microskills ανά αγγελία.
     ranked = ranked[:MAX_MICROSKILLS_PER_JOB]
 
     found_microskills = [microskill for microskill, _ in ranked]
@@ -688,6 +742,7 @@ def detect_microskills_in_text(
         dict.fromkeys(data["category"] for _, data in ranked)
     )
 
+    # Δημιουργεί αναλυτική τεκμηρίωση για κάθε microskill που ανιχνεύθηκε.
     evidence = {
         microskill: {
             "score": data["score"],
@@ -703,6 +758,7 @@ def detect_microskills_in_text(
 def main():
     print("Loading cleaned jobs dataset...")
 
+    # Ελέγχει ότι υπάρχει το καθαρισμένο dataset αγγελιών.
     if not CLEANED_JOBS_PATH.exists():
         raise FileNotFoundError(f"Δεν βρέθηκε το αρχείο: {CLEANED_JOBS_PATH}")
 
@@ -710,6 +766,7 @@ def main():
 
     print("Loading microskills lexicon...")
 
+    # Ελέγχει ότι υπάρχει το αρχείο lexicon με τα microskills.
     if not LEXICON_PATH.exists():
         raise FileNotFoundError(f"Δεν βρέθηκε το lexicon: {LEXICON_PATH}")
 
@@ -718,6 +775,7 @@ def main():
     print(f"Loaded {len(jobs_df)} jobs")
     print(f"Loaded {len(lexicon_df)} microskills from lexicon")
 
+    # Προετοιμάζει τις δομές που θα χρησιμοποιηθούν για keyword και semantic matching.
     keyword_entries = build_matcher_entries(lexicon_df)
     semantic_entries = build_semantic_entries(lexicon_df)
 
@@ -726,6 +784,7 @@ def main():
 
     results = []
 
+    # Εφαρμόζει την ανίχνευση microskills σε κάθε αγγελία του dataset.
     for idx, row in jobs_df.iterrows():
         text = row.get("processed_text", row.get("cleaned_text", ""))
 
@@ -744,12 +803,15 @@ def main():
             "detected_microskills_count": len(detected_microskills),
         })
 
+        # Εμφανίζει πρόοδο ανά 100 αγγελίες.
         if (idx + 1) % 100 == 0:
             print(f"Processed {idx + 1}/{len(jobs_df)} jobs")
 
+    # Αποθηκεύει τα αποτελέσματα της ανίχνευσης σε τελικό CSV αρχείο.
     out_df = pd.DataFrame(results)
     out_df.to_csv(OUTPUT_PATH, index=False, encoding="utf-8-sig")
 
+    # Υπολογίζει βασικά στατιστικά για την επιτυχία και την ένταση της ανίχνευσης.
     jobs_with_microskills = (out_df["detected_microskills_count"] > 0).sum()
     share = jobs_with_microskills / len(out_df) if len(out_df) else 0
     avg = out_df["detected_microskills_count"].mean() if len(out_df) else 0
@@ -763,8 +825,10 @@ def main():
     print(f"Average microskills per job: {avg:.2f}")
     print(f"Max microskills in one job: {max_count}")
 
+    # Εμφανίζει ενδεικτικά τις πρώτες γραμμές του αποτελέσματος για γρήγορο έλεγχο.
     print(out_df.head(10))
 
 
 if __name__ == "__main__":
+    # Εκτελεί τη διαδικασία ανίχνευσης microskills όταν το αρχείο τρέχει απευθείας.
     main()

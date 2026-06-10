@@ -5,6 +5,7 @@ from collector import TrackerClient, build_request_body
 from extractor import save_jobs_json, save_jobs_csv
 
 
+# Ορίζει σε ποια γλώσσα θα πραγματοποιηθεί η αναζήτηση των αγγελιών.
 SEARCH_LANGUAGE_MODE = "bilingual"
 # Επιλογές:
 # "english"   -> ψάχνει μόνο αγγλικά keywords
@@ -12,6 +13,8 @@ SEARCH_LANGUAGE_MODE = "bilingual"
 # "bilingual" -> ψάχνει αγγλικά + ελληνικά μαζί
 
 
+# Ομάδες λέξεων-κλειδιών που χρησιμοποιούνται για τη συλλογή αγγελιών.
+# Κάθε ομάδα έχει μία ετικέτα και αντίστοιχα keywords στα αγγλικά και στα ελληνικά.
 KEYWORD_GROUPS = [
     {
         "label": "assistant",
@@ -106,11 +109,15 @@ KEYWORD_GROUPS = [
 ]
 
 
+# Κωδικός χώρας για την αναζήτηση αγγελιών στην Ελλάδα.
 LOCATION_CODE = "EL"
+
+# Μέγιστος αριθμός σελίδων που θα ανακτηθούν ανά ομάδα keywords.
 MAX_PAGES = 3
 
 
 def get_keywords_for_group(group: dict) -> list[str]:
+    # Επιστρέφει τα keywords μιας ομάδας ανάλογα με τη γλωσσική ρύθμιση αναζήτησης.
     if SEARCH_LANGUAGE_MODE == "english":
         return group["english"]
 
@@ -120,6 +127,7 @@ def get_keywords_for_group(group: dict) -> list[str]:
     if SEARCH_LANGUAGE_MODE == "bilingual":
         return group["english"] + group["greek"]
 
+    # Αν έχει δοθεί λάθος τιμή στη ρύθμιση γλώσσας, σταματά η εκτέλεση με επεξηγηματικό μήνυμα.
     raise ValueError(
         "Λάθος SEARCH_LANGUAGE_MODE. "
         "Χρησιμοποίησε: english, greek ή bilingual."
@@ -127,12 +135,17 @@ def get_keywords_for_group(group: dict) -> list[str]:
 
 
 def main():
+    # Δημιουργεί τους φακέλους για τα ακατέργαστα και τα επεξεργασμένα δεδομένα, αν δεν υπάρχουν ήδη.
     Path("data/raw").mkdir(parents=True, exist_ok=True)
     Path("data/processed").mkdir(parents=True, exist_ok=True)
 
+    # Δημιουργεί client για την επικοινωνία με το Tracker API.
     client = TrackerClient()
+
+    # Κρατά τις ομάδες keywords που απέτυχαν, ώστε να εμφανιστούν στο τέλος.
     failed_groups = []
 
+    # Εκτελεί αναζήτηση για κάθε ομάδα λέξεων-κλειδιών.
     for group in KEYWORD_GROUPS:
         label = group["label"]
         keywords = get_keywords_for_group(group)
@@ -141,6 +154,7 @@ def main():
         print(f"Search language mode: {SEARCH_LANGUAGE_MODE}")
         print(f"Keywords: {keywords}")
 
+        # Δημιουργεί το σώμα του αιτήματος προς το API με keywords και χώρα αναζήτησης.
         body = build_request_body(
             keywords=keywords,
             keywords_logic="or",
@@ -150,14 +164,17 @@ def main():
         print("Request body:", body)
 
         try:
+            # Ανακτά τις αγγελίες από το API για τη συγκεκριμένη ομάδα keywords.
             items = client.fetch_all_jobs(body=body, max_pages=MAX_PAGES)
             print(f"Total fetched items: {len(items)}")
 
+            # Δημιουργεί κοινό όνομα αρχείου με βάση την ομάδα, τη γλώσσα και τη χώρα.
             file_stub = f"jobs_{label}_{SEARCH_LANGUAGE_MODE}_{LOCATION_CODE.lower()}"
 
             json_path = Path("data/raw") / f"{file_stub}.json"
             csv_path = Path("data/processed") / f"{file_stub}.csv"
 
+            # Αποθηκεύει τα αποτελέσματα τόσο σε JSON όσο και σε CSV μορφή.
             save_jobs_json(items, json_path)
             save_jobs_csv(items, csv_path)
 
@@ -165,22 +182,26 @@ def main():
             print(f"Saved CSV to: {csv_path}")
 
         except ReadTimeout:
+            # Διαχειρίζεται περιπτώσεις όπου το API καθυστερεί υπερβολικά να απαντήσει.
             print(f"TIMEOUT στο keyword group: {label}")
             failed_groups.append(label)
             continue
 
         except RequestException as e:
+            # Διαχειρίζεται γενικά σφάλματα HTTP ή σύνδεσης με το API.
             print(f"Request error στο keyword group '{label}': {e}")
             failed_groups.append(label)
             continue
 
         except Exception as e:
+            # Διαχειρίζεται απρόβλεπτα σφάλματα, ώστε να συνεχίσει η εκτέλεση στις επόμενες ομάδες.
             print(f"Unexpected error στο keyword group '{label}': {e}")
             failed_groups.append(label)
             continue
 
     print("\n=== RUN FINISHED ===")
 
+    # Εμφανίζει συγκεντρωτικά ποιες ομάδες ολοκληρώθηκαν ή απέτυχαν.
     if failed_groups:
         print("Keyword groups που απέτυχαν:")
         for group in failed_groups:
@@ -190,4 +211,5 @@ def main():
 
 
 if __name__ == "__main__":
+    # Εκτελεί τη βασική διαδικασία συλλογής αγγελιών όταν το αρχείο τρέχει απευθείας.
     main()
