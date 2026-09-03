@@ -32,6 +32,18 @@
       "http://data.europa.eu/esco/isco/C2432",
       "http://data.europa.eu/esco/isco/C2642"
     ],
+    "sectors": [
+      "Research and experimental development on social sciences and humanities",
+      "Accommodation",
+      "Activities of head offices",
+      "Market research and public opinion polling",
+      "Business and other management consultancy activities",
+      "Public relations and communication activities",
+      "Activities of advertising agencies",
+      "Administration of the State and the economic, social and environmental policies of the community",
+      "Provision of services to the community as a whole",
+      "Computing infrastructure, data processing, hosting and other information service activities"
+    ],
     "id": 2,
     "title": "Senior Manager (Corporate Communications & PR)",
     "description": "Job description\n\n\nSenior Manager (Corporate Communications & PR)\n \nYour role in summary\nThe Senior Manager is a pivotal role within our team, responsible for developing and executing communication strategies and action plans. In this capacity, you will act as the principal point of contact for our clients, ensuring their satisfaction and retention through dedicated service and the application of V+O principles and values. This role requires close collaboration with the Director/ Business Unit Director, and involves a strong focus on client advisory, especially in areas of corporate communications, public affairs, policy research and analysis.\nKey Responsibilities:\n\nDevelop and manage corporate communication strategies and action plans under the direction of the Director/ Business Unit Director.\nAdvise clients on public affairs and stakeholder engagement in coordination with the Director/ Business Unit Director.\nBuild, manage, and nurture existing client relationships, ensuring continual deepening of these relationships through client satisfaction, development, and retention.\nServe as the project owner for the portfolio, maintaining client KPIs and reports, and proposing actionable recommendations based on outcomes.\nProactively anticipate client needs and provide relevant, timely recommendations.\nResponsible for creating all copywriting materials (Press Releases, Q&A documents, interviews, speeches) in line with agreed strategy.\nBuild and maintain strong relationships and networks with the media and other stakeholders per client needs.\nOversee client’s press office activities under the supervision of Director/ Business Unit Director.\nOrganize and ensure the timely, budget-compliant completion of all project deliverables.\nSupport crisis communications under the supervision of Director/ Business Unit Director.\nConduct research on policy issues at national, European, and international levels, and monitor legislation and regulations relevant to client’s business interests.\nUndertake the people manager role, managing, training, guiding, and developing team members in accordance with company values and management processes.\nCooperate with external providers, ensuring performance and compliance with company policies.\nManage the completion of all client-related administrative tasks (databases, ISO files, etc.) on time and in accordance with company policies and procedures.\n\nQUALIFICATIONS AND STANDARDS: \nEducation & Experience \n \nEssential\n- University degree in Business Administration, Media Communications, Public Relations, Journalism, or Political Science\n- Excellent written and verbal communication skills in both Greek and English\n- Minimum 5 years of relevant working experience in a PR firm or in a Corporate Communication Department\nDesirable \n- A master's or advanced degree in a relevant field, demonstrating a higher level of expertise.\n- Advanced experience in crisis communications\nJoin us for a challenging career! \nWe offer an exciting business framework for you to accelerate professionally as well as a competitive remuneration package and benefits both numerical and non-numerical. We work with great clients, from SMB to global corporations, on a variety of communication challenges, to create compelling and persuasive experiences through insightful planning, innovative thinking, and seamless execution.\nIf you want to become a member of our team, please send us your CV at careers@vando.gr \n \nYour application will be handled with the utmost confidentiality!",
@@ -64,6 +76,14 @@
       "http://data.europa.eu/esco/occupation/6cd08cbe-7611-4d70-8886-6c59c0385442",
       "http://data.europa.eu/esco/occupation/8d586ee9-0ab1-4155-a3b0-2ca786c8e48c",
       "http://data.europa.eu/esco/isco/C241"
+    ],
+    "sectors": [
+      "Activities of head offices",
+      "Business and other management consultancy activities",
+      "Other activities auxiliary to financial services, except insurance and pension funding",
+      "Research and experimental development on social sciences and humanities",
+      "FINANCIAL AND INSURANCE ACTIVITIES",
+      "Activities of extraterritorial organisations and bodies"
     ],
     "id": 32,
     "title": "FINANCIAL AND COMMERCIAL DEPARTMENT EXECUTIVE - FINANCIAL PROJECT ANALYST",
@@ -106,6 +126,13 @@
       "http://data.europa.eu/esco/isco/C121",
       "http://data.europa.eu/esco/isco/C334"
     ],
+    "sectors": [
+      "Remediation activities and other waste management service activities",
+      "Manufacture of footwear",
+      "Office administrative and support activities",
+      "Activities of head offices",
+      "Research and experimental development on social sciences and humanities"
+    ],
     "id": 55,
     "title": "Executive Assistant",
     "description": "SABO is a Greek manufacturing company, based in Vassiliko, Evia, Greece, with subsidiaries in Brazil, Romania and Italy and we operate in more than 50 countries. For 40 years we have supported our customers’ growth by providing turnkey and integrated solutions in the fields of heavy clay, industrial solutions, solid waste management, power and automation, heavy industry and shipping.\nOur successful operation is based on the technical know-how, innovative mindset and collaboration spirit of our team who is committed to making a global impact.\nThis highly motivated team needs to be strengthened by an Executive Assistant.\nYour role in more detail:\nAs Executive Assistant, you will:\n\nCoordinate and manage our CEOs’ personal calendar, including scheduling appointments, events, and personal commitments, managing shared folders and sending invitations\nPerform general administrative tasks (e.g., taking detailed notes, preparing meeting materials, preparing, and submitting expense reports) and special projects\nArrange travel accommodations, transportation, and itineraries for trips\nPrepare and modify documents, including correspondence, reports, presentations, spreadsheets, memos and emails\nAct as the point of contact among executives, employees, clients and other external partners\nCollaborate with other departments to follow up and facilitate cross-functional projects and decisions\nOversee general office operations to ensure a well-maintained and efficient working environment\n\nYour Qualifications:\n\nBSc in Business Administration, Communications, Social Sciences, or related field\nMore than 3 years of working experience as an Executive Assistant or in a similar administrative role, ideally within an industrial environment\nFamiliarity with calendar management and travel coordination for executives\nVery good knowledge of MS Office, especially Excel and PowerPoint\nFluency in both English and Greek (oral and written at professional corporate level)\nProven ability to handle confidential information with discretion\nStrong organizational and time management skills\nAbility to adapt quickly to changing priorities and situations\n\nYour Benefits:\n\nThe opportunity to gain global experience and work with a highly motivated team\nA motivating and engaging work environment\nContinuous learning and career development opportunities\nCompetitive compensation package\nPrivate life & health insurance\n\n \nWith DEI in mind\nDiversity, equity, and inclusion are a priority for us! SABO ensures a safe and balanced working environment, based on respect by providing an equal number of opportunities to every employee who meets the necessary requirements.\n \nHere @SABO, we care for your privacy. The security of your data is one of our greatest concerns. All information is strictly confidential and in accordance with GDPR rules.\n \n \nMeet our hiring team…and APPLY NOW 😊",
@@ -128,6 +155,7 @@
     "occupations": [
       "http://data.europa.eu/esco/isco/C3343"
     ],
+    "sectors": [],
     "id": 99,
     "title": "Representative of the recruiting company on the Greek market",
     "description": "Duties of the candidate:- making outgoing calls to employers in Greece and offering our services(remote work)- communicating with potential/current clients from Greece- preparation of work contracts, administrative tasks- assisting potential employers with obtaining work permits/temporaryresidence permits for workers- a trip to a business trip all over Greece for a personal presentation of thecompany and conclusion of contracts\nRequirements:- advanced English skills- experience in the sales- work experience and understanding of the field of recruiting- availability every day during business hours, except for weekends- familiarity with the market of foreign workers in Greece- willingness to work and openness when communicating with people- having a car for trips will be an important advantage- experience in business processes or a feeling that you can handle it\nPlease also send information about your experience in the text and why youwould like to do this activity. This is much more important than a CV.What we offer:We offer a calculation system as follows: Fixed rate per hour + high bonuses fora closed client for outgoing calls. The cost of all business trips will be fullycovered (fuel, hotel, food). The average earning will reach: 1500-3500 euros permonth. Payment once a month or once every 2 weeks at the request of thecandidate.\nWe offer good conditions, the ability to adjust working hours to suit yourself, afixed hourly salary + % from new clients who will come from outgoing calls, whichwill guarantee a high monthly income.\nOur contact details:+48 690 548 543 (VIber/WhatsApp)contact@hrbridge.eu",
@@ -158,6 +186,9 @@
       "http://data.europa.eu/esco/occupation/1b38a27d-ef98-4d9f-b1b2-8c109bf47e79",
       "http://data.europa.eu/esco/isco/C2432",
       "http://data.europa.eu/esco/isco/C4223"
+    ],
+    "sectors": [
+      "Organisation of conventions and trade shows"
     ],
     "id": 100,
     "title": "Administrative Services Staff Member",
@@ -193,6 +224,15 @@
       "http://data.europa.eu/esco/occupation/6cd08cbe-7611-4d70-8886-6c59c0385442",
       "http://data.europa.eu/esco/occupation/bea99fea-0383-4c63-b944-70d4799de2c5",
       "http://data.europa.eu/esco/occupation/cd7b838c-51f6-41ec-9067-bb974c0f991b"
+    ],
+    "sectors": [
+      "Manufacture of leather and related products of other materials",
+      "Technical testing and analysis",
+      "Other activities auxiliary to financial services, except insurance and pension funding",
+      "Research and experimental development on social sciences and humanities",
+      "Activities of head offices",
+      "Business and other management consultancy activities",
+      "Public relations and communication activities"
     ],
     "id": 104,
     "title": "Project Manager – EU Projects",
@@ -237,6 +277,12 @@
       "http://data.europa.eu/esco/isco/C4311",
       "http://data.europa.eu/esco/isco/C4313"
     ],
+    "sectors": [
+      "Office administrative and support activities",
+      "Other monetary intermediation",
+      "Other activities auxiliary to financial services, except insurance and pension funding",
+      "Accounting, bookkeeping and auditing activities; tax consultancy"
+    ],
     "id": 106,
     "title": "Accounting/Administrative Assistant",
     "description": "iLand, a company operating in the fields of construction and hospitality services, based in Alimos, Athens, is seeking to employ a motivated person to work as an accounting and administrative assistant.\nYou are expected to work closely with our Management Team on miscellaneous financial matters regarding the company and its clients, as well as collaborate with our outsource Accounting Partners on a regular basis to make sure all corporate financial data are updated and handled.\nResponsibilities of the position include:\n\nReconciling invoices and identifying discrepancies\nCommunicating with vendors and partners about invoices and payments\nCreating and updating expense reports\nIssuing invoices to customers\nHandling various accounting related inquiries for the Management Team (e.g. update on regulations, advising on financial procedures, assisting with tax return, resolving issues by visiting public organizations if required etc.)\nChecking spreadsheets for accuracy\nEstablishing and maintaining digital and physical financial records\nCollaborating with Property Management dpt regarding monthly bills payments for clients\nAssisting with payroll (verifying timesheets, calculating vacation/sick days, assuring proper procedures are followed etc.)\nRunning various routine administrative/clerical duties, as required\n\nRequired skills:\n\nBSc/BA in Accounting, Finance or relevant field\nWork experience as an Accounting Assistant or Accounting Clerk\nVery good knowledge of the Greek and the English language (verbal and written)\nHands-on experience with accounting software (SoftOne)\nExcellent knowledge of basic bookkeeping procedures and familiarity with finance regulations, especially regarding corporate accounting\nMeticulous with great attention to details and accuracy\nMicrosoft office literacy (mostly excel, word, power-point)\nAbility to handle sensitive, confidential information\nHighly motivated and able to prioritize efficiently when needed\nExcellent communication and organization skills\nStrong “can-do” mentality and punctuality\nProfessional manners and elegant appearance\nExperience in CRM solutions will be considered an asset\n\nDo you want to work in a prestigious multinational company as a vital member of the office team? Are you searching for a demanding, yet respectful and rewarding job environment that will help you bring out and enhance your diligence, wittiness and professional skills? Are you looking for an opportunity to further develop and grow with the company that you will be working for? Apply here now!\nThe Company offers:\n\nAttractive Remuneration Package\nPublic Insurance\nPrivate Insurance package\nFriendly multinational working environment\nDevelopment opportunities",
@@ -270,6 +316,9 @@
       "http://data.europa.eu/esco/isco/C2",
       "http://data.europa.eu/esco/isco/C242"
     ],
+    "sectors": [
+      "Organisation of conventions and trade shows"
+    ],
     "id": 148,
     "title": "Administration and Front Office Assistant",
     "description": "ICAP Recruitment Solutions is one of the premium consultancies and part of ICAP People & Employment Solutions, the largest HR Services Provider in Greece and Cyprus. With more than 50 years of experience, we specialize in assessing and recruiting graduates to mid-level level professionals for both local and multinational companies across all sectors.ICAP Recruitment Solutions, on behalf of its client, a pioneer in providing comprehensive solutions and continuous technical support to healthcare professionals and patients, is seeking candidates for the following position.\nAdministration and Front Office Assistant (Ref. 5680/AFOA/RS/GR)\nThe role is responsible for being the first point of contact for clients and visitors while playing a crucial role in ensuring the smooth operation of the office and maintaining a warm and welcoming atmosphere.Key Responsibilities:\n\nGreet and assist visitors and clients in a friendly and professional manner.\nAnswer and direct incoming phone calls, taking messages when needed.\nManage daily office operations, including mail handling, filing and ordering office supplies.\nProvide administrative support to various departments, including data entry, scheduling meetings and preparing documents.\nAssist in organizing company events, meetings, and other activities.\nMaintain a clean and organized front office area.\nSupport the management team with additional tasks as required.\n\nQualifications:\n\nPrior experience in an administrative or front office role is a must.\nFluency in English, both written and spoken.\nProficiency in Microsoft Office Suite.\nExcellent communication and interpersonal skills.\nStrong organizational skills with the ability to multitask effectively.\nAttention to detail and a proactive approach to problem-solving.\nAbility to work independently as well as part of a team.\n\nThe Company Offers:\n\nAttractive Salary.\nDynamic, professional, and pleasant work environment\nExcellent opportunity for personal and professional development.\n\nAll information received will be treated with strict confidentiality.",
@@ -294,6 +343,9 @@
       "http://data.europa.eu/esco/occupation/bfe142b9-a049-4d41-89c4-fd2f34ac56b6",
       "http://data.europa.eu/esco/isco/C221",
       "http://data.europa.eu/esco/isco/C3313"
+    ],
+    "sectors": [
+      "Accounting, bookkeeping and auditing activities; tax consultancy"
     ],
     "id": 150,
     "title": "Accounting & Admin Assistant",
@@ -322,6 +374,11 @@
       "http://data.europa.eu/esco/occupation/b0ad8659-0410-4b5b-9466-a90f8b3cdac9",
       "http://data.europa.eu/esco/isco/C531"
     ],
+    "sectors": [
+      "Other activities auxiliary to financial services, except insurance and pension funding",
+      "MANUFACTURING",
+      "Technical testing and analysis"
+    ],
     "id": 177,
     "title": "QUALITY CONTROL SHIFT CHECKER",
     "description": "The company RIVULIS A.V.E.G.E. one of the world's leading micro-irrigation systems manufacturing group, operating in Greece for over 40 years, is looking to hire a QUALITY CONTROL SHIFT CONTROLLER for its factory in Inofyta.\nThe position holder will report to the Head of the company's Quality Control department.\n \nMain responsibilities \n\nExecution of the regular quality checks provided by the Quality Control Guidelines and  responsibility for their faithful application.\nMaintaining quality control records.\nTrack his authority statistics.\nParticipate in solving quality problems.\nResponsibility for the execution of extraordinary quality controls, according to the needs of the company.\nCollaborate with the Department Head in all department functions (troubleshooting, calibration, filing of Quality Records, Statistics, etc.).\n\n \nQualifications required \n\nTEI, IEK, EPA.L study title of technological direction, or technical school.\n2-year working experience in a similar position (ideally in an industrial environment), will be considered an additional qualification.\nAdministrative and organizational skills (team working, problem solving)\nBasic computer knowledge (Ms Office)\nBasic knowledge of English\nCompleted military obligations\n\n \nThe company offers:\n\nCompetitive remuneration package\nTransportation to and from work\nPrivate hospital and medical coverage program\nMeal plans and gift vouchers for employees' children\nAdditional benefits\n\n \nInterested parties are requested to send a CV to the email:\nIoanna.gkatzia@rivulis.com",
@@ -349,6 +406,10 @@
     ],
     "occupations": [
       "http://data.europa.eu/esco/occupation/99492920-e5a5-4dba-9e5a-93193147198c"
+    ],
+    "sectors": [
+      "Research and experimental development on social sciences and humanities",
+      "All other professional, scientific and technical activities n.e.c."
     ],
     "id": 231,
     "title": "PURCHASING ADMINISTRATOR",
@@ -381,6 +442,11 @@
       "http://data.europa.eu/esco/occupation/6c3fd65e-2d24-47d8-bc22-9e93512bdcc2",
       "http://data.europa.eu/esco/occupation/cd7b838c-51f6-41ec-9067-bb974c0f991b"
     ],
+    "sectors": [
+      "Office administrative and support activities",
+      "Activities of head offices",
+      "Public relations and communication activities"
+    ],
     "id": 237,
     "title": "Administrative Assistant",
     "description": "Responsibilities:\n\nManage and coordinate administrative functions for the executive team.\nSchedule meetings, handle correspondence, and manage communication on behalf of management.\nMaintain and organize office records, documents, and reports.\nCoordinate travel arrangements and accommodations for executives.\nAssist in preparing presentations, reports, and other materials as needed.\nHandle inquiries and interact professionally with clients, partners, and stakeholders.\n\nRequirements:\n\nProven experience as an Administrative Secretary or similar role.\nProficiency in office software and strong computer skills.\nExceptional organizational and multitasking abilities.\nExcellent verbal and written communication skills in English.\nAbility to prioritize tasks and work efficiently in a fast-paced environment.\nDiscretion and confidentiality in handling sensitive information.\n\n \nIf you are a proactive individual with strong administrative skills and the ability to thrive in a collaborative environment, we encourage you to apply.\n \nJoin us and be part of a dynamic team dedicated to excellence.",
@@ -406,6 +472,11 @@
       "http://data.europa.eu/esco/occupation/719f101d-1866-49d3-8d5c-2256f606a8b9",
       "http://data.europa.eu/esco/occupation/bfe142b9-a049-4d41-89c4-fd2f34ac56b6",
       "http://data.europa.eu/esco/isco/C334"
+    ],
+    "sectors": [
+      "Computer consultancy and computer facilities management activities",
+      "Business and other management consultancy activities",
+      "Accounting, bookkeeping and auditing activities; tax consultancy"
     ],
     "id": 245,
     "title": "Internship in Accounting (only undergraduate students)",
@@ -447,6 +518,18 @@
       "http://data.europa.eu/esco/isco/C252",
       "http://data.europa.eu/esco/isco/C2521"
     ],
+    "sectors": [
+      "Other content distribution activities",
+      "Computer programming activities",
+      "Web search portal activities",
+      "Computing infrastructure, data processing, hosting and other information service activities",
+      "Manufacture of electronic components and boards",
+      "Manufacture of computers and peripheral equipment",
+      "Computer consultancy and computer facilities management activities",
+      "Engineering activities and related technical consultancy",
+      "Repair and maintenance of computers, personal and household goods, and motor vehicles and motorcycles",
+      "Gambling and betting activities"
+    ],
     "id": 250,
     "title": "Database Administrator (Hybrid)",
     "description": "To meet our current corporate needs, we would like to bring to our team a..\\n\\n Senior Database Administrator (DBA)\\n\\nAs a member of the Database Administration team you will be responsible for the installation, configuration and maintenance of the INTRALOT Group Databases. Additionally, you will need to think and develop solutions to sometimes unique issues, by using our available tools and technologies. You will also need to provide your support and technical expertise to any database-related problem that may come up!\\n\\nMore specifically, the successful candidate will undertake to:\\nAdministration: in this role, you will install, configure & maintain Databases of various flavors on Premises, Cloud or Hybrid (MySQL, Oracle, MS SQL Server, MongoDB, PostgreSQL), implement database-related security measures, and conduct research for new applications on Database technology for INTRALOT projects around the world.\\nOperations & Monitoring:  you will be responsible to operate & monitor databases as well as develop relevant operations & monitoring techniques.\\nDocumentation & Support: developing & maintaining technical documentation is a must in this position. Provide 3rd level support services, addressing related incidents and service requests.\\nSoftware development team support: assist the SW Developmnt team withdata changes, cloning, relocation, performance issues, query optimizations, configuration changes, updates and troubleshooting.\\nEscalate to Vendors by opening coherent service requests to request their help to resolve issues.\\n\\nKey Challenges of our job opening:\\nYou will be joining a team that manages corporate database systems of high complexity, multiple versions and large data volumes!\\nHandling rapid changes and product transformations which must be evaluated quickly.\\nThus, in this role, you need to keep yourself up to date & aligned with new technologies!\\nPlease note that in this role requires to work on shifts, including weekends (standby support)To be a successful candidate, your profile should match the following criteria:\\nIdeally, you have earned your University / College Degree in Computer Science or Computer Engineering or relevant technology field.\\nA proven record of minimum five (5) years working experience\\nin database administration.\\nAdvanced knowledge of MySQL or Oracle RDBMS is required.\\nAdditional knowledge in one or more of the following database technologies: PostgreSQL, Oracle RDBMS, MongoDB, MS SQL Server etc. will be considered a plus\\nGood knowledge of scripting and programming languages as well as linux tools, such as Bash, Python, Ansible, awk, sed, etc.\\nAn automation and Infrastructure as Code (IaC) mindset\\nYou have excellent command of the Greek & English language, both written and spoken \\nCompleted military obligations for male candidates.\\nOn a personal side... \\nYou are able to develop and maintain solid technical documentation.You accustomed to working under pressure to meet tight deadlines, whenever needed \\nYou are also distinguished for your problem-solving abilities and for your strong sense of prioritizing! \\n we work, above everything else, as a TEAM. So, you are an excellent team player, good in communicating and willing to cooperate efficiently with other colleagues!\\nINTRALOT's vision is to attract the most talented people in our industry and to support and develop them not only to fulfill their role description but also to go beyond expectations! \\n\\nAbout Us: INTRALOT, a publicly listed company established in 1992, is a leading gaming solutions supplier and operator active in 39 regulated jurisdictions worldwide. With a global workforce of approximately 1,700 employees, INTRALOT is committed to redefine innovation and quality of services in the lottery and gaming sector, while supporting operators in raising funds for good causes. In 2023, INTRALOT was distinguished as a top ten most attractive employer brands in Greece.\\nINTRALOT has been awarded the prestigious WLA Responsible Gaming Framework Certification by the World Lottery Association. We always act with integrity and enjoy what we do.\\n\\n\\nWhy Join Us:\\n A competitive compensation package combined with additional benefits.\\n Hybrid working model.\\n Private Insurance for you and your family. \\n Modern facilities, parking inside, enticing restaurant and corporate bus.\\n An extensive training program upon induction and throughout employment.\\n Exceptional opportunities to learn and develop in a multinational environment.\\n Prospects for professional growth both locally and globally. \\n\\nEqual Opportunity Employer: We celebrate diversity and are proud to be an Equal Opportunity Employer. We welcome applicants from all backgrounds and do not discriminate based on race, color, religion, gender, sexual orientation, national origin, age, marital status, medical condition, disability, or any other protected status. Our premises in Paiania, Attica, are accessible to individuals with disabilities.\\n",
@@ -477,6 +560,13 @@
       "http://data.europa.eu/esco/occupation/0959cd1d-f6c8-4362-939a-ad7d5f75d659",
       "http://data.europa.eu/esco/occupation/5791a961-4717-4230-a245-a4082a675f04",
       "http://data.europa.eu/esco/isco/C13"
+    ],
+    "sectors": [
+      "Activities of head offices",
+      "Business and other management consultancy activities",
+      "General public administration activities",
+      "Tertiary education",
+      "Engineering activities and related technical consultancy"
     ],
     "id": 260,
     "title": "Public Tenders Officer",
@@ -513,6 +603,11 @@
       "http://data.europa.eu/esco/isco/C252",
       "http://data.europa.eu/esco/isco/C2521"
     ],
+    "sectors": [
+      "Computing infrastructure, data processing, hosting and other information service activities",
+      "Computer consultancy and computer facilities management activities",
+      "Business and other management consultancy activities"
+    ],
     "id": 271,
     "title": "Database Administrator (DBA)",
     "description": "Company DescriptionWe are Netcompany-Intrasoft, a member of Netcompany Group A/S, and a leading European IT Solutions and Services company with strong international presence and expertise, dedicated to responsible digitalisation. We offer innovative and added-value solutions of the highest quality to a wide range of public and private organizations, while being a key-player in the EU Institutions for the past 30 years. We hold an outstanding record of 500+ organizations in 70+ countries, that have chosen our solutions and services, to fulfil their business needs. Our team of 3500+ professionals is our driving force and our most valuable asset.Job DescriptionEver wondered what it feels like to be a Database Administrator in Netcompany-Intrasoft?Joining us as a Database Administrator, you will have the opportunity to be a part of our highly skilled agile consultants teams working within large-scale transformation projects, that impact the life of millions of EU citizens. You will be involved in the design, customization, integration, and maintenance of enterprise-scale CRM/CX implementations that are intended mainly in private sector organizations. As a Database Administrator you will:Install, configure, maintain, and troubleshoot Databases (Oracle RDBMS, MS SQL Server and optional DB2, MongoDB, MySQL)Helping with database design and developmentManaging database accessDesigning maintenance procedures and putting them into operationEnsuring that databases meet user requirementsLiaising with programmers, applications/operational staff, IT project managers and other technical staffManaging database security/integrity and backup proceduresImplementing security measuresDefining objectives through consultation with staff at all levelsTesting and modifying databases to ensure that they operate reliablyProviding user training, support and feedbackArchiving dataUnderstands networking standards and best practices.Develop and maintain technical documentation.Ensure all service level agreements and objectives are met.Require working on shifts including weekends.Ability to work well under pressure and to meet deadlines as neededQualificationsWhat would make you a fit for the role:Knowledge of Oracle RDBMSFamiliarity with MS SQL ServerExperience working with DB2It would also be a plus if you match some of the following:MongoDBMySQLPostgreSQLUnix O/S (AIX - Linux RHEL/Centos/OELWindows Additional InformationBeing a part of the Netcompany-Ιntrasoft team, you will be provided with: The opportunity to work in a modern environment & in a hybrid working modelA seamless onboarding experience and a buddy to support you on your first stepsA competitive compensation & benefits packageHealth and life insurance programMeal and commuting allowanceWell-being activities (on premises)Continuous learning opportunities using the most modern methods (unlimited access to Udemy for Business, ad-hoc trainings)A personalized development plan for targeted career growthIf you are looking forward to be part of a diverse environment, and have the opportunity to work alongside well-experienced professionals, on challenging, large-scale projects that directly impact millions of citizens around the globe, then this is the place to be!Our cultureOur people are the most important element of our success. Our work life is well defined by our set of fundamental Values: https://bit.ly/3SSbBzU  #BePartOfSomethingGreat!*Please submit your CV in EnglishAll applications will be treated as strictly confidential.",
@@ -541,6 +636,7 @@
       "http://data.europa.eu/esco/isco/C242",
       "http://data.europa.eu/esco/isco/C2424"
     ],
+    "sectors": [],
     "id": 326,
     "title": "CRM TEAM LEADER",
     "description": "BFS GROUP, Leading Employer in Greece, official partner of NOVA of the UNITED GROUP group, one of the largest CALL CENTER based in Ag. Dimitrios, wishes to hire a CRM team leader, to cover a corresponding position in the management department of existing clientele.\n \nResponsibilities of Candidates\n\nParticipation in the organization, coordination and monitoring of the team.\nAssess team members and identify training needs.\nMonitoring & motivating the team's work in order to achieve the agreed targets based on the Key Performance Indicators (KPIs).\nResponsible for ensuring adherence to company policies and procedures.\n\n \nNecessary qualifications\n\nNecessary experience in a similar position in the field of telecommunications.\nAbility to achieve goals under pressure.\nExcellent communication and organizational skills.\nDynamic personality with critical thinking.\nAdministrative skills (organization, planning, monitoring, control)\nBasic knowledge of CRM\nGood knowledge of Microsoft Office (word, excel)\nExcellent knowledge of Greek & basic knowledge of English\n\n \nThey are offered\n\nHigh fixed salary depending on qualifications\nCompetitive productivity bonuses\nFull time 5 days employment\nContract of indefinite duration\nMandatory social security insurance\nConsistency in payments\nModern, contemporary, unique, pleasant and highly aesthetic work environment\nPossibility to participate in competitions for the next rising star of our group.\nEasy access (Right at the metro stop Ag. Dimitrios)",
@@ -573,6 +669,11 @@
       "http://data.europa.eu/esco/occupation/0ee67d5e-8de9-48f0-97c5-ba23d486b1e9",
       "http://data.europa.eu/esco/occupation/6cd08cbe-7611-4d70-8886-6c59c0385442",
       "http://data.europa.eu/esco/occupation/f605bcd2-90b6-45a0-a558-d05016d68a77"
+    ],
+    "sectors": [
+      "General public administration activities",
+      "Research and experimental development on social sciences and humanities",
+      "Activities of head offices"
     ],
     "id": 333,
     "title": "Administration Secretariat",
@@ -618,6 +719,19 @@
       "http://data.europa.eu/esco/isco/C3343",
       "http://data.europa.eu/esco/isco/C4110"
     ],
+    "sectors": [
+      "Office administrative and support activities",
+      "Activities of call centres",
+      "Organisation of conventions and trade shows",
+      "Activities of holding companies",
+      "Fund management activities",
+      "Activities of head offices",
+      "Business and other management consultancy activities",
+      "General public administration activities",
+      "Accommodation",
+      "Warehousing, storage and support activities for transportation",
+      "Temporary employment agency activities and other human resource provisions"
+    ],
     "id": 376,
     "title": "Administrative Assistant, CDS Greece",
     "description": "ROLE SUMMARYAs part of the Clinical Data Sciences (CDS) group, an integral delivery unit within the Global Biometrics and Data Management (GBDM) organization, the Administrative Assistant is responsible for ensuring efficient and effective administrative operations within Greece Clinical Data Sciences. To administrate duties, the Administrative Assistant may also be assigned to coordinate special projects or tasks and will contribute to the achievement of Greece Pfizer Research & Development (PRD) Hub or relevant site-wide objectives.\nROLE RESPONSIBILITIESMajor responsibilities may include but are not limited to:\n\nProvide support in administrative duties including, correspondence, facility and stationary support, phone coverage, calendar management, scheduling and logistics of meetings, travel arrangement, and expense reports\nProvide administrative support for team colleagues according to established procedures (e.g., GCE, Ariba, travel authorization, etc.)\nProvide support in department budget control management\nProvide support to visitors from other facilities in areas related to travel, local transportation and logistics\nProvide support to maintain and update employee information (e.g., master list, headcount status, Org Chart, JD, etc.) and ensure accuracy\nPopulate paperwork in preferred format with provided information and support preparation of tracking log, reports, and presentations\nInteract with colleagues in a constructive, professional way to process requests and deliver expected level of service\nProactively anticipates business needs/requests and takes appropriate action\nAssists Sr. leaders & Operations in the department in preparation of presentations (e.g., gathers information for presentation, creates graphics)\nHas accountability for special projects on a recurring or one-time basis from start to finish (e.g., plans and coordinates large off-site meetings, coordinates recruiting schedule and integration of new employees, conducts research/locates information via internet, library)\nEstablishes strategic, on-going relationships with key individuals in and outside of Pfizer in order to expedite completion of own work\nIdentifies administrative issues and recommends/implements most appropriate solutions that impact completion of own work\n\n\n\n\n\nREQUIRED QUALIFICATIONS\n\nBachelor's Degree\nExcellent verbal and written communication skills for interaction with stakeholders, manager and colleagues\nExcellent oral and written English language skills\nAbility to carry out administrative and secretarial functions proficiently and in a timely manner\nCan independently solve routine problems (e.g., misdirected mail, personal network/logon problems, schedule problems or conflicts, etc.)\nDemonstrates knowledge of and skills with general office procedures such as telephone reception, customer service, commonly used office software (e.g., MS Office, internet navigation, outlook, etc.)\nDemonstrated proficiency with commonly used office software including Outlook, Word, Excel, PowerPoint, and XMS as well as internet applications with ability to learn new applications\nUses e-mail, face-to-face and telephone contacts appropriately\nBuilds good working relationships with all colleagues\n\nPREFERRED QUALIFICATIONS\n\nMaster's Degree\nExperience in a multinational company managing a variety of events, projects other corporate initiatives\nAbility to use SAP/Ariba/Concur system\n\n\n\n\n\nPfizer is an equal opportunity employer and complies with all applicable equal employment opportunity legislation in each jurisdiction in which it operates.\nTo apply please visit our website www.pfizercareers.com and search job Administrative Assistant, CDS Greece id 4919525.",
@@ -644,6 +758,11 @@
       "http://data.europa.eu/esco/occupation/a6e8a6bf-9209-4d19-a131-a8b6431e0f75",
       "http://data.europa.eu/esco/isco/C1212",
       "http://data.europa.eu/esco/isco/C4313"
+    ],
+    "sectors": [
+      "Computer consultancy and computer facilities management activities",
+      "Business and other management consultancy activities",
+      "Activities of head offices"
     ],
     "id": 392,
     "title": "Internship in HR Department",
@@ -672,6 +791,7 @@
       "http://data.europa.eu/esco/isco/C334",
       "http://data.europa.eu/esco/isco/C4415"
     ],
+    "sectors": [],
     "id": 413,
     "title": "LAW FIRM ADMINISTRATION SECRETARIAT",
     "description": "THE LAW FIRM YIANNIS KAROUZOS & ASSOCIATES HEADQUARTERS IN ATHENS IS LOOKING FOR ADMINISTRATIVE SECRETARIES \nMain tasks:\n\nCoordination and supervision of the main functions of the Administrative Secretariat\nAdministrative support of the daily operation of the Administration Secretariat (reception of incoming telephone calls, monitoring of corporate email messages, filing of documents)\nSecretarial support of the Head of the office and the Associate Lawyers (appointment setting - keeping a daily schedule, recording a legal diary)\n\nRequired Qualifications\n\nUniversity degree\nExcellent knowledge of Greek and English\nExcellent knowledge of MS Office\nExperience in a similar position up to 2 years\n\nSkills\n\nConfidentiality and teamwork\nAnalytical and synthetic thinking\nProper time management\nVery good written and verbal communication",
@@ -713,6 +833,19 @@
       "http://data.europa.eu/esco/isco/C242",
       "http://data.europa.eu/esco/isco/C333"
     ],
+    "sectors": [
+      "Accommodation",
+      "Activities of head offices",
+      "Business and other management consultancy activities",
+      "Employment activities",
+      "Vocational secondary education",
+      "Hotels and similar accommodation",
+      "Activities of advertising agencies",
+      "Research and experimental development on social sciences and humanities",
+      "Other reservation service and related activities",
+      "Computer programming activities",
+      "Computer consultancy and computer facilities management activities"
+    ],
     "id": 435,
     "title": "Front Office Agent - Monasty, Autograph Collection",
     "description": "SWOT Hospitality, a leading Hotel Management company, is looking to recruit\nfor Monasty, Autograph Collection: Front Office Agent\n \n\n\nRequirements\n\nAs a Front Office Agent your responsibilities include but are not limited to:\n\nProviding consistent excellent service to guests upon arrival, and during their stay, from check-in to checkout.\nWelcoming and registering guests expeditiously, providing information to them as needed, obtaining identification and credit/check approval as directed by hotel policy.\nVerifying rate and departure date. Confirmation and modification of information required to complete the registration process as per hotel procedures.\nAnswering all guest questions accurately and resolving problems in a timely manner ensuring guest satisfaction. Authorizing revenue allowances as allowed by hotel policy.\nUpselling guest rooms, food & beverage outlets if applicable and seasonal hotel promotions.\nMaking restaurant, transportation, and/or entertainment reservations for guests, plus other concierge services as requested and having thorough knowledge of hotel amenities, company, and local area & attractions.\nCommunication and cooperation with other hotel departments to maintain a high level of guest satisfaction.\nUnderstanding of hotel history, services, facility information, and rates and packages\n\n \nQualifications\n\nDegree in Hospitality or Travel & Tourism is highly desirable.\nPrior solid work experience as a Front Office Agent or similar roles.\nThorough knowledge of the hospitality industry.\nCustomer-oriented and friendly personality.\nCommunication and administrative skills.\nExcellent command of English language\nAttention to detail and a structured way of working\n\n\n\n\nBenefits\n\n\nDynamic, friendly and supportive working environment\nOpportunities for career development within the company\nContinuous training and development\nWork with the best professionals in tourism industry\n\n \nSWOT Hospitality is a leading Hotel Management company, trusted by international investors, developers, and top-scale hospitality brands. SWOT Hospitality boasts extensive experience in management, investment and development, sales and marketing strategies, as well as advisory services, and is a valuable asset for businesses seeking guaranteed success. SWOT Hospitality is the white flag operator of international accommodation brands please visit www.swot.gr.",
@@ -742,6 +875,10 @@
       "http://data.europa.eu/esco/occupation/24d39e12-e104-49d3-8224-8b7a5f9b99d1",
       "http://data.europa.eu/esco/isco/C242",
       "http://data.europa.eu/esco/isco/C2432"
+    ],
+    "sectors": [
+      "Other education n.e.c.",
+      "Library and archive activities"
     ],
     "id": 458,
     "title": "Library Manager",
@@ -774,6 +911,13 @@
       "http://data.europa.eu/esco/occupation/be54b8da-bc71-40f0-b150-45c5e0769375",
       "http://data.europa.eu/esco/isco/C141",
       "http://data.europa.eu/esco/isco/C42"
+    ],
+    "sectors": [
+      "Office administrative and support activities",
+      "Hotels and similar accommodation",
+      "Event catering activities",
+      "Organisation of conventions and trade shows",
+      "Other support activities to arts and performing arts"
     ],
     "id": 535,
     "title": "Reservations Manager - Dubai",
@@ -811,6 +955,19 @@
       "http://data.europa.eu/esco/occupation/d7d986e1-7333-431b-9719-0c5c6939e360",
       "http://data.europa.eu/esco/isco/C334"
     ],
+    "sectors": [
+      "MANUFACTURING",
+      "Engineering activities and related technical consultancy",
+      "Cultural education",
+      "Construction of railways and underground railways",
+      "Passenger rail transport",
+      "Service activities incidental to land transportation",
+      "Repair and maintenance of electrical equipment",
+      "Activities of head offices",
+      "Business and other management consultancy activities",
+      "General public administration activities",
+      "CONSTRUCTION"
+    ],
     "id": 549,
     "title": "Senior Civil Engineer",
     "description": "Company DescriptionArchirodon, having earned its reputation as a reliable and respected international contractor for more than a half century in the Engineering, Procurement and Construction (EPC) market, continues to create value to its stakeholders by executing complex EPC projects worldwide, in recognition of its superior standards of performance.  We have an outstanding record in completing major Energy, Marine, Infrastructure and Defense & Security projects around the globe and we pride ourselves on delivering over the years the kind of reliability and trust that the client has the right to expect from a major EPC contractor.Job DescriptionJob DescriptionWe are constantly growing and are currently looking for an experienced Senior Civil Engineer to join our Engineering Department in Athens. Build towards excellence and join our worldwide journey!What you will need to do:Ensures implementation of Company's IMS to the extent applicable to the activities of the team members under his supervision.Assists in the preparation of Design Status Reports for Projects / Tenders for which he is acting as the lead engineer.Assists the Engineering Team Manager(s), or Project Engineering Manager in the forecast of design workload.Assists in the effective training of the team members under his supervision.Assists the Engineering Team Manager(s), or Project Engineering Manager in the organization of project/tender team, and the distribution of engineering work.Ensures that engineering activities performed by him or under his supervision are performed on time, determines the causes of any deviation and in cooperation with the Team proposes appropriate remedies to Engineering Team Manager, or Project Engineering Manager.Establishes a positive relationship with Clients / Engineers. Ensures execution of the Engineering Works in accordance with project specifications, and by meeting deadlines.Ensures that the engineering database is kept abreast, maintained and accessible to Engineering Staff.Participates in the selection of best or alternative solutions through analysis of information and evaluation of results.Assesses the potential risks of specific engineering solutions/tasks.Keeps up to date with applicable Codes, Standards and Legislation (per Project /Location).Gets members of a project team that he may be leading to work together to accomplish tasks, organizes regular Meetings.Attends designated meetings both in house and when nominated, with client or on sites.Initiates administrative functions such as reviewing and writing reports.Collaborates with and reviews the work of external consultants as required, attender and project implementation phases.Ensures the fulfilment of the Project quality requirements and contractual obligations for the team engineering activities in compliance with the established procedures. Consistently keeps abreast of new design and construction methods.Ensures that incoming information is properly transferred to interfacing departments/engineering working groups.Performs designs/design reviews.Performs any other related duties as assigned.QualificationsWhat you will need to have:BE or equivalent in Civil Engineering, and MSc (preferably in an international English-speaking University).Minimum 5 years of relevant experience related to Oil & Gas, Power Plants, Industrial Projects, Marine Infrastructure and detailed engineering experience in the field of expertise.Previous exposure to international environment will be considered an advantage.In depth knowledge of international codes & standards, international design guidelines & recommendations.Mobility is desirable to participate in working teams at Archirodon's project home offices throughout the countries that Archirodon executes its EPC projects.Excellent command (written and oral) of the English language.Additional InformationWhat's in it for you:Competitive salary and benefits are part of the offering, yet the real joy comes from being a member of smart and passionate teams, within an international leading EPC Group on a mission that matters. We create mega construction projects - literally around the globe - with meaningful impact on the local communities for the years to come. At Archirodon, you will find a proud, productive and human-centric culture, caring for and building on our people and their development!",
@@ -843,6 +1000,16 @@
       "http://data.europa.eu/esco/occupation/cb4f98c8-6b8d-41d8-87eb-a2a2033a3a25",
       "http://data.europa.eu/esco/isco/C334"
     ],
+    "sectors": [
+      "Other support activities for transportation",
+      "Intermediation service activities for passenger transportation",
+      "Intermediation service activities for accommodation",
+      "Travel agency activities",
+      "Market research and public opinion polling",
+      "Warehousing, storage and support activities for transportation",
+      "Business and other management consultancy activities",
+      "General public administration activities"
+    ],
     "id": 557,
     "title": "Logistics Assistant",
     "description": "Company DescriptionArchirodon, having earned its reputation as a reliable and respected international contractor for more than a half century in the Engineering, Procurement and Construction (EPC) market, continues to create value to its stakeholders by executing complex EPC projects worldwide, in recognition of its superior standards of performance. We have an outstanding record in completing major Energy, Marine, Infrastructure and Defense & Security projects around the globe and we pride ourselves on delivering over the years the kind of reliability and trust that the client has the right to expect from a major EPC contractor.Job DescriptionWe are constantly growing and are currently looking for a Logistics Assistant to join our top qualified team in our Athens Office.Are you ready to travel, be part of and learn from an international dynamic team? Would you like to be part of a dynamic EPC leader with global presence? We'd like to meet you!QualificationsWhat you will need to do:Collaborate with Logistics service providers to negotiate and maintain favourable terms, pricing, and contracts. Handle administrative responsibilities, including support to the Logistics Manager and the team. Provide advanced administrative support to the Company Logistics S/W -training to Logistics S/W users and support Logistics team. Deliver reports, including shipping variances, commodity tracking, Logistics KPIs etc.What you will need to have :Minimum one to three (1-3) years' experience in Logistics and transport operations preferably in project cargo, freight forwarding or shipping company. MSc or BSc degree in Shipping, Logistics, Computer science and technology or relevant field Knowledge of international transport processes, Custom regulations, and procedures Good working knowledge of Incoterms 2010/2020 Very good knowledde of English .Very good knowledge of MS office You are someone who:Is a true team member.Enjoys challenge, working with different cultures and travelling!Strong analytical, problem-solving, and organizational abilities Excellent co-operation and interpersonal skills while working in a multicultural environment.Additional InformationWhat's in it for you:Competitive salary and benefits are part of the offering, yet the real joy comes from being a member of smart and passionate teams, within an international leading EPC Group on a mission that matters. We create mega construction projects - literally around the globe - with meaningful impact on the local communities for the years to come. At Archirodon, you will find a proud, productive, and human-centric culture, caring for and building on our people and their development! Please note that you will be contacted only in case you are shortlisted for an interview. In the meantime, do not hesitate to stay in touch and keep monitoring our  open vacancies  and our  LinkedIn  page! Rest assured that your application will be treated with strict confidentiality and under all applicable data privacy regulations.",
@@ -871,6 +1038,12 @@
       "http://data.europa.eu/esco/isco/C3152",
       "http://data.europa.eu/esco/isco/C334"
     ],
+    "sectors": [
+      "Service activities incidental to water transportation",
+      "Activities of head offices",
+      "Other education n.e.c.",
+      "Business and other management consultancy activities"
+    ],
     "id": 586,
     "title": "Administrative Assistant - Shipping Company",
     "description": "Administrative Assistant / Operations Dept. Assistant\nShip Management Company, based in Akti Miaouli-Piraeus is looking for a Secretary/Assistant to Operations and Purchasing departments, with the prospect to develop into higher position within one department.\nFluent English & Greek, Computer literacy and Experience in similar position are essential. Shipping degree and former employment within the shipping/maritime sector will be considered an asset.All CVs will be handled with strict confidentiality.",
@@ -890,6 +1063,9 @@
     "skills": [],
     "occupations": [
       "http://data.europa.eu/esco/occupation/27a88c48-1d09-4a8c-a82a-a61ea16476d9"
+    ],
+    "sectors": [
+      "Engineering activities and related technical consultancy"
     ],
     "id": 616,
     "title": "REAL ESTATE AGENT - ΣΥΜΒΟΥΛΟΣ ΑΚΙΝΗΤΩΝ",
@@ -928,6 +1104,22 @@
       "http://data.europa.eu/esco/occupation/b4e26d7f-475e-4ada-b287-d669de03fb21",
       "http://data.europa.eu/esco/isco/C1321"
     ],
+    "sectors": [
+      "Manufacture of prepared meals and dishes",
+      "Manufacture of footwear",
+      "Other activities auxiliary to financial services, except insurance and pension funding",
+      "Repair, maintenance and installation of machinery and equipment",
+      "Engineering activities and related technical consultancy",
+      "MANUFACTURING",
+      "Manufacture of electronic components",
+      "Manufacture of instruments and appliances for measuring, testing and navigation",
+      "Manufacture of other special-purpose machinery n.e.c.",
+      "Manufacture of railway locomotives and rolling stock",
+      "Manufacture of air and spacecraft and related machinery",
+      "Technical testing and analysis",
+      "Manufacture of synthetic rubber in primary forms",
+      "Manufacture of rubber products"
+    ],
     "id": 618,
     "title": "Maintenance Engineer",
     "description": "The only factory with vertically integrated production in Greece, 3i S.A. (ISOPIPE S.A.), specializing in synthetic rubber, insulation, in state-of-the-art facilities, with a total area of ​​60,000 m² and building facilities of 30,000 m², in Ritsona, with a workforce of 150 people.\nIn the context of dynamic development and to support its needs, the Company wishes to staff\nMaintenance Engineer\nResponsibilities: \n\nIt immediately repairs technical faults if they occur during the production process\nMaintains and schedules repairs of machines/production lines, with the goal of optimal operation of the equipment during the production process\nUndertakes the preventive and corrective maintenance of the machines, in order to ensure the quality of the produced product and proposes solutions\nParticipates in installation and connection of new production machines\nImplements the maintenance program, following safety procedures\nCompiles and reviews maintenance/machinery process reports\n\nWe are looking for candidates who have:\n\nPrevious experience in an industrial unit is required\nProfessional experience of at least 2 years or more\nA.E.I. degree or T.E.I. Engineer\nGood knowledge of the English language\nAdministrative and organizational skills\nTeam spirit\nCommitment to achieving goals and efficiency\nConsistency, accountability, confidentiality and integrity\nAbility to work under pressure\nAbility to identify and solve problems\nAbility to work in shifts\n\nWe offer:\n\nMeal, feeding program by an expert, certified catering company\nTransportation to and from the factory\nPrivate security\nAttractive salary package\nTraining and development prospects in a modern, pleasant and dynamic work environment\nOngoing support and development\n\nInterested parties are requested to send a CV by selecting \"Apply now\" or send it to the email hr@tzanos.gr with Maintenance Engineer in the Subject or contact us at 2262089800. \nYour application will be treated in strict confidence and confidentiality, in accordance with all applicable regulations regarding personal data.",
@@ -958,6 +1150,11 @@
       "http://data.europa.eu/esco/occupation/f7b04542-d8c7-42db-8475-e63b507cce82",
       "http://data.europa.eu/esco/isco/C4",
       "http://data.europa.eu/esco/isco/C4226"
+    ],
+    "sectors": [
+      "Activities of call centres",
+      "Retail sale of newspapers, and other periodical publications and stationery",
+      "Office administrative and support activities"
     ],
     "id": 635,
     "title": "Front Office Receptionist",

@@ -32,6 +32,18 @@
       "http://data.europa.eu/esco/isco/C2432",
       "http://data.europa.eu/esco/isco/C2642"
     ],
+    "sectors": [
+      "Research and experimental development on social sciences and humanities",
+      "Accommodation",
+      "Activities of head offices",
+      "Market research and public opinion polling",
+      "Business and other management consultancy activities",
+      "Public relations and communication activities",
+      "Activities of advertising agencies",
+      "Administration of the State and the economic, social and environmental policies of the community",
+      "Provision of services to the community as a whole",
+      "Computing infrastructure, data processing, hosting and other information service activities"
+    ],
     "id": 2,
     "title": "Senior Manager (Corporate Communications & PR)",
     "description": "Job description\n\n\nSenior Manager (Corporate Communications & PR)\n \nYour role in summary\nThe Senior Manager is a pivotal role within our team, responsible for developing and executing communication strategies and action plans. In this capacity, you will act as the principal point of contact for our clients, ensuring their satisfaction and retention through dedicated service and the application of V+O principles and values. This role requires close collaboration with the Director/ Business Unit Director, and involves a strong focus on client advisory, especially in areas of corporate communications, public affairs, policy research and analysis.\nKey Responsibilities:\n\nDevelop and manage corporate communication strategies and action plans under the direction of the Director/ Business Unit Director.\nAdvise clients on public affairs and stakeholder engagement in coordination with the Director/ Business Unit Director.\nBuild, manage, and nurture existing client relationships, ensuring continual deepening of these relationships through client satisfaction, development, and retention.\nServe as the project owner for the portfolio, maintaining client KPIs and reports, and proposing actionable recommendations based on outcomes.\nProactively anticipate client needs and provide relevant, timely recommendations.\nResponsible for creating all copywriting materials (Press Releases, Q&A documents, interviews, speeches) in line with agreed strategy.\nBuild and maintain strong relationships and networks with the media and other stakeholders per client needs.\nOversee client’s press office activities under the supervision of Director/ Business Unit Director.\nOrganize and ensure the timely, budget-compliant completion of all project deliverables.\nSupport crisis communications under the supervision of Director/ Business Unit Director.\nConduct research on policy issues at national, European, and international levels, and monitor legislation and regulations relevant to client’s business interests.\nUndertake the people manager role, managing, training, guiding, and developing team members in accordance with company values and management processes.\nCooperate with external providers, ensuring performance and compliance with company policies.\nManage the completion of all client-related administrative tasks (databases, ISO files, etc.) on time and in accordance with company policies and procedures.\n\nQUALIFICATIONS AND STANDARDS: \nEducation & Experience \n \nEssential\n- University degree in Business Administration, Media Communications, Public Relations, Journalism, or Political Science\n- Excellent written and verbal communication skills in both Greek and English\n- Minimum 5 years of relevant working experience in a PR firm or in a Corporate Communication Department\nDesirable \n- A master's or advanced degree in a relevant field, demonstrating a higher level of expertise.\n- Advanced experience in crisis communications\nJoin us for a challenging career! \nWe offer an exciting business framework for you to accelerate professionally as well as a competitive remuneration package and benefits both numerical and non-numerical. We work with great clients, from SMB to global corporations, on a variety of communication challenges, to create compelling and persuasive experiences through insightful planning, innovative thinking, and seamless execution.\nIf you want to become a member of our team, please send us your CV at careers@vando.gr \n \nYour application will be handled with the utmost confidentiality!",
@@ -58,6 +70,23 @@
       "http://data.europa.eu/esco/occupation/d84bf1d7-ef99-40c4-a407-3791d6531b44",
       "http://data.europa.eu/esco/isco/C334"
     ],
+    "sectors": [
+      "Manufacture of electronic components and boards",
+      "Manufacture of computers and peripheral equipment",
+      "Manufacture of communication equipment",
+      "Manufacture of consumer electronics",
+      "Manufacture of instruments and appliances for measuring, testing and navigation",
+      "Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus",
+      "Manufacture of wiring devices",
+      "Manufacture of other electrical equipment",
+      "Manufacture of electrical and electronic equipment for motor vehicles",
+      "Manufacture of railway locomotives and rolling stock",
+      "Engineering activities and related technical consultancy",
+      "Technical testing and analysis",
+      "Investigation and private security activities",
+      "Other telecommunication activities",
+      "Computer programming, consultancy and related activities"
+    ],
     "id": 6,
     "title": "Installer of security systems",
     "description": "COMPANY importing technological equipment and security systems with a leading position in the Greek market is looking for an experienced Security Systems Installer Technician with a central role in the telephone technical support of its clientele internally. Position Duties:\nThe suitable candidate will further strengthen the professional installers of our clientele in matters of technical consulting and at the same time will inform about the points of excellence of the company's products.\n \nNecessary qualifications:\nStudies in Electronics fields\n5 years professional experience in security systems, CCTV, fire detection.\nExperience in organization and continuous communication support\nKnowledge of PC and English is desirable\nPassenger car driver's license\nPositive and pleasant personality\nResponsibility and consistency\nSix days.\nAmenities:\nCompetitive remuneration package\nDevelopment prospects\nExcellent and constantly evolving work environment\nContinuous education.\n, fee 1,600€ NET\n \n, IEK Degree, minimum work experience: 36 months, full time, in the workplace",
@@ -78,6 +107,9 @@
     "occupations": [
       "http://data.europa.eu/esco/occupation/480d2853-db07-43d4-847f-7ffdd8d368f5",
       "http://data.europa.eu/esco/isco/C2642"
+    ],
+    "sectors": [
+      "Photographic activities"
     ],
     "id": 10,
     "title": "Journalist",
@@ -118,6 +150,16 @@
       "http://data.europa.eu/esco/occupation/d3e32e5e-7f24-48e3-b939-e4f800eb62fb",
       "http://data.europa.eu/esco/occupation/f605bcd2-90b6-45a0-a558-d05016d68a77"
     ],
+    "sectors": [
+      "Accounting, bookkeeping and auditing activities; tax consultancy",
+      "Business and other management consultancy activities",
+      "Employment activities",
+      "Manufacture of luggage, handbags, saddlery and harness of any material",
+      "Accommodation",
+      "Activities of head offices",
+      "Research and experimental development on social sciences and humanities",
+      "Compulsory social security activities"
+    ],
     "id": 16,
     "title": "HR Manager",
     "description": "The Role:\nWe are seeking a talented and experienced HR Manager to join our team and contribute to our commitment to excellence in hospitality. As the HR Manager, you will play a crucial role in the success of our organisation by overseeing and managing various human resources functions. You will be responsible for implementing HR policies and procedures, fostering a positive workplace culture, and ensuring compliance with employment laws and regulations. \n \nResponsibilities:\n\nDevelop and implement HR strategies and policies that align with the hotel's goals and objectives.\nManage the entire recruitment process, from sourcing and interviewing to onboarding new employees.\nSupport the successful implementation of the Performance Management process and provide guidance on performance improvement.\nManage learning and development initiatives to enhance employee skills and competencies.\nManage and resolve employee relations issues, including disciplinary action and conflict resolution as per relevant employment laws and regulations.\nAdminister employee benefits programs and manage compensation structures.\nEnsure compliance with labor laws and regulations, including health and safety standards.\nMaintain accurate and up-to-date employee records and time keeping systems.\nSupport the administration of payroll in cooperation with the accounting department. \nProvide support and advice to managers and employees on HR matters.\nCoaching support of Managers on employee relation matters\nFoster a positive and inclusive workplace culture that aligns with the hotel's commitment to excellence.\nStay up to date with industry trends and best practices in HR management.\n\n \nRequirements:\n\nDegree in Human Resources, Business Administration, or related field.\nAt least 3 years experience in a similar role. \nIn-depth knowledge of Greek employment laws and regulations.\nStrong interpersonal and communication skills.\nExcellent organizational and time-management abilities.\nAbility to handle confidential information with discretion.\nA passion for fostering a positive work environment and delivering exceptional guest experiences.\nExcellent verbal and written communication skills in Greek and English.\nWorking knowledge of an HRM Software.\nVery good knowledge of MS Office Suite.\nOutstanding problem-solving and conflict resolution skills.\n\n \nType of employment: Full time, permanent\nLocation: Athens, Greece\nSubmit your application at work@gatsbyathens.com \nAll applications will be treated with strict confidentiality!",
@@ -146,6 +188,10 @@
     "occupations": [
       "http://data.europa.eu/esco/occupation/068370e0-9c27-4814-87d0-44fbb3140815",
       "http://data.europa.eu/esco/isco/C2"
+    ],
+    "sectors": [
+      "Business and other management consultancy activities",
+      "Employment activities"
     ],
     "id": 18,
     "title": "VODAFONE Family Advisor",
@@ -181,6 +227,12 @@
       "http://data.europa.eu/esco/occupation/6353b3e8-e8f2-4ecb-b230-186927139892",
       "http://data.europa.eu/esco/occupation/6cd08cbe-7611-4d70-8886-6c59c0385442"
     ],
+    "sectors": [
+      "Accommodation",
+      "Activities of head offices",
+      "Computing infrastructure, data processing, hosting and related activities",
+      "Research and experimental development on social sciences and humanities"
+    ],
     "id": 20,
     "title": "Junior Buyer (Fixed-Term)",
     "description": "Do you want to make a dynamic start in the purchasing industry and gain experience in procurement processes? 🎓\nAre you familiar with the use of ERP systems and Excel?💻\nAre you looking for a position where communication, persistence and targeted search play a leading role?📈\n\n            If so, then the position of Junior Buyer is exactly what you are looking for!\nManpowerGroup Greece, on behalf of a Group of companies, with commercial, technical and industrial activity, is looking for the next Junior Buyer, who will join the team.\n    📌 Location: Athens (Easy access by public transport)\n    📍 Working model: For life\n    📢​ Working hours: Monday-Friday, 09:00 – 16:00\n    🎯 ​Duration of contract: Initial contract of 3 months, with the prospect of renewal\nWhat the role includes:\n\nInternational market research and analysis to find and evaluate new suppliers\nNegotiating prices, terms and contracts with suppliers to secure the best possible deals\nManagement and maintenance of relationships with existing suppliers\nMonitor and analyze market trends and prices\nData entry into company systems\n\nWhat we're looking for:\n\nUniversity/Technical Degree\nPrevious experience in a similar role or office positions will be valued (profiles without experience will also be evaluated)\nExcellent knowledge of the English Language\nGood use of MS Office programs\nCommunication skills & negotiation skills\nTeam spirit\n\nSalary and benefits package:\n✔️    Competitive salary package\n📖 Ongoing training and support for professional development in a fast-paced team environment\n🚀 Development prospects in a dynamic environment\n👥 Assessment stages include:\n\nIf this role interests you, please do not hesitate to apply directly. Our consultants will contact candidates who meet the above requirements to schedule an interview.\nAs for the next steps, there will be 1 more interview with the company/client.",
@@ -208,6 +260,10 @@
       "http://data.europa.eu/esco/isco/C2433",
       "http://data.europa.eu/esco/isco/C522"
     ],
+    "sectors": [
+      "Warehousing and storage",
+      "Retail sale of medical and orthopaedic goods"
+    ],
     "id": 21,
     "title": "SALES SUPPORT- Orthopedics",
     "description": "He/she is responsible for compiling Daily Sales Reports and assembling the sales schedule (surgeries, doctor visits, presentations).\nRecords leave reports of the department's personnel and informs the supervisor.\nCompiles and processes the Department Incident Charges, regarding non-billables.\nHe is responsible for opening new product codes in ERP\nSends sales/purchases statistics according to the needs of each sales department.\nCorrects incident data in ERP. Match charges to invoices. On a weekly basis, he receives the data from the sellers regarding the sales, so that the necessary corrections can be made to the incidents (doctor's name, seller's name, category of operations, etc.)\nPerforms inventory control via ERP and informs vendors and supervisor of inventory and warehouse and overstock expiration dates. As for back orders and delays in receiving goods.\nNotifies sellers of product descriptions approved by Product Manager and BUM.\nMonitors sales prices, and matches products in the price watch, in collaboration with the Product Manager and BUM.\nCommunicates with hospital supply departments to inform them regarding delivery of backorders, vantage code project, etc.\nCommunicates with domestic suppliers to process Expense requests for surgical consumables.\nPrepares and participates in monthly sales meetings.\nHe/she is responsible for extracting the records of the hospital records for processing their inventory and sending them to the involved/interested members of the B.U. as defined by the company based on the procedure (monthly and quarterly inventories of deposits with code, description, pieces, lot number, expiration date), as well as for the collection and formatting of the inventoried materials, data processing and sending them to invoicing.",
@@ -229,6 +285,7 @@
       "http://data.europa.eu/esco/skill/cf310cff-0d28-4dbc-9dbb-cc500a3196c2"
     ],
     "occupations": [],
+    "sectors": [],
     "id": 24,
     "title": "Shipping Sales Secretarial Support",
     "description": "For Shipping Sales Secretarial Support, people are wanted from a Shipping Chemicals Production Company in Aspropyrgos.\nOrganizational skills and very good knowledge of English and Microsoft Office are considered essential.  Knowledge of Softone will be an advantage.\nTelephone: 6979119985 (Days and hours of contact: Monday to Friday, 10:00-16:00).",
@@ -257,6 +314,7 @@
     "occupations": [
       "http://data.europa.eu/esco/isco/C251"
     ],
+    "sectors": [],
     "id": 25,
     "title": "Office Coordinator – Code Position R2024",
     "description": "You will deal with:\n\nManagement of electronic learning platform (LMS) and its users\nOrganization, preparation and coordination of educational programs\nData entry in the company's CRM & reporting\nTechnical support of virtual trainings \n\nNecessary qualifications\n\nDegree of HEI-TEI\n1-3  years of experience in secretarial support\nExcellent computer skills (MS Office) and especially the use of spreadsheets (Excel) and professional presentations (Power point)\nFamiliarity with online collaboration platforms (MS Teams, Webex) is desirable\nExcellent knowledge and use of the Greek and English languages ​​(written and spoken)\nKnowledge of CRM management (Salesforce) desired\n\nWe expect you to show through your work:\n\nCustomer-centric behavior aimed at providing quality services\nAbility to meet schedules with quality and reliable output\nFocus and initiative in managing problems or changes in a timely manner\nMood for cooperation and teamwork\n\nWe offer you:\n\ncompetitive salary, depending on your experience and qualifications\nproductivity bonus\nmedical care etc.\n\nYou can send your CV to jobs@response.gr by writing in the Subject: R2024\nOur team looks forward to meeting you!",
@@ -282,6 +340,9 @@
     ],
     "occupations": [
       "http://data.europa.eu/esco/occupation/026401a9-7d56-4d7b-8052-38985ddbeafa"
+    ],
+    "sectors": [
+      "Raising of other animals"
     ],
     "id": 26,
     "title": "ACCOUNTING OFFICER/ASSISTANT ACCOUNTANT",
@@ -316,6 +377,14 @@
       "http://data.europa.eu/esco/occupation/8d586ee9-0ab1-4155-a3b0-2ca786c8e48c",
       "http://data.europa.eu/esco/isco/C241"
     ],
+    "sectors": [
+      "Activities of head offices",
+      "Business and other management consultancy activities",
+      "Other activities auxiliary to financial services, except insurance and pension funding",
+      "Research and experimental development on social sciences and humanities",
+      "FINANCIAL AND INSURANCE ACTIVITIES",
+      "Activities of extraterritorial organisations and bodies"
+    ],
     "id": 32,
     "title": "FINANCIAL AND COMMERCIAL DEPARTMENT EXECUTIVE - FINANCIAL PROJECT ANALYST",
     "description": "Who We Are\nAt Infoworx, we focus on innovation and the quality of our services and products.\nAs a leading company in the field of electrical and electronic imports through B2B services, in which we have been active since 2009, we have realized a vision by expanding into the e-commerce industry. In 2015, we created Electroholic's store, through which we offer B2C services and solutions at an affordable cost, providing continuous and human-centered support to our customers.\nAlways putting the consumer first, our goal is to provide a unique shopping experience.\nOur team consists of talented people, team players with vision and appetite for work, on whom we can base our future plans by investing in their continuous and continuous development.\n \nRole Description\nThe role of a financial analyst is of great importance for the healthy operation of the business, as it guides and manages all the financial processes that lead to its growth and stability.\n \nJob Description:\n\nCooperation with the accounting offices of the group companies for the preparation of management reports.\nMonthly checks of income - expenditure - cash accounts\nAnalysis of business performance / results, with an emphasis on Finance.\n\nRequired Qualifications:\n\nUniversity / TEI degree in economics.\nAt least 5 years of experience in a similar role in Financial Management\nExcellent knowledge of Ms Office programs (excel etc).\nGood knowledge of accounting.\nAdministrative, communication and negotiation skills.\nOrganizational skills and problem solving ability",
@@ -340,6 +409,11 @@
     ],
     "occupations": [
       "http://data.europa.eu/esco/occupation/a142a645-6e9e-4d86-accd-9816df857c90"
+    ],
+    "sectors": [
+      "Manufacture of leather clothes and fur apparel",
+      "Manufacture of leather and related products of other materials",
+      "Industrial product and fashion design activities"
     ],
     "id": 33,
     "title": "SENIOR SOFT ONE DEVELOPER",
@@ -368,6 +442,11 @@
       "http://data.europa.eu/esco/occupation/6cd08cbe-7611-4d70-8886-6c59c0385442",
       "http://data.europa.eu/esco/occupation/ccf0becd-247d-4497-9ee7-25a46c1ffb7a",
       "http://data.europa.eu/esco/isco/C4412"
+    ],
+    "sectors": [
+      "Activities of call centres",
+      "Research and experimental development on social sciences and humanities",
+      "Retail sale of newspapers, and other periodical publications and stationery"
     ],
     "id": 35,
     "title": "SECRETARIAL SUPPORT",
@@ -402,6 +481,12 @@
       "http://data.europa.eu/esco/occupation/6cd08cbe-7611-4d70-8886-6c59c0385442",
       "http://data.europa.eu/esco/occupation/725090a7-9943-4dae-8079-a6999d21ddba",
       "http://data.europa.eu/esco/isco/C251"
+    ],
+    "sectors": [
+      "Activities of call centres",
+      "Research and experimental development on social sciences and humanities",
+      "WHOLESALE AND RETAIL TRADE",
+      "Activities of head offices"
     ],
     "id": 36,
     "title": "Customer Service and Sales Support Manager - CSR",
@@ -438,6 +523,15 @@
       "http://data.europa.eu/esco/isco/C2424",
       "http://data.europa.eu/esco/isco/C522"
     ],
+    "sectors": [
+      "Business and other management consultancy activities",
+      "Activities of head offices",
+      "WHOLESALE AND RETAIL TRADE",
+      "Wholesale of household goods",
+      "Wholesale of information and communication equipment",
+      "Wholesale of other machinery, equipment and supplies",
+      "Other specialised wholesale"
+    ],
     "id": 43,
     "title": "Junior Field Sales Representative",
     "description": "Mellon Technologies, the parent company of Mellon Group of Companies, was founded in 1994 in Athens. Our offering consists of specialized technology solutions, contact centre and business process outsourcing services.\nMellon Technologies is seeking motivated and energetic Junior Field Sales Representatives to join our team.The primary responsibility of this role is to visit door-to-door retail merchants to promote payment acceptance solutions and services related to EFTPOS (Electronic Funds Transfer at Point Of Sale). This is an exciting opportunity to join a dynamic team and grow with a leading company in the financial services industry.\nKey Responsibilities:\n\nConduct door-to-door sales visits to retail merchants within assigned territories\nPromote and sell EFTPOS solutions to potential customers\nDemonstrate product features and benefits to prospective clients\nBuild and maintain strong relationships with retail merchants\nAchieve sales targets and KPIs set by the management\nProvide excellent customer service and support to clients\nCollect and report market feedback and sales data to the management team\nAttend training sessions and sales meetings as required\n\nRequirements:\n\nHigh school diploma or equivalent; a bachelor’s degree in business, marketing, or a related field is a plus\nPrevious experience in sales, especially field sales or door-to-door sales, is preferred\nExcellent communication and interpersonal skills\nStrong negotiation and persuasion abilities\nSelf-motivated with a results-driven approach\nAbility to work independently and as part of a team\nValid driver’s license\n\nBenefits:\n\nCompetitive salary and commission structure\nMulticultural and excellent working environment\nOpportunities for career advancement",
@@ -460,6 +554,9 @@
     "occupations": [
       "http://data.europa.eu/esco/occupation/0959cd1d-f6c8-4362-939a-ad7d5f75d659",
       "http://data.europa.eu/esco/isco/C4"
+    ],
+    "sectors": [
+      "Tertiary education"
     ],
     "id": 44,
     "title": "OFFICE CLERK",
@@ -485,6 +582,9 @@
     ],
     "occupations": [
       "http://data.europa.eu/esco/occupation/f0ca39a8-1e30-487c-95f9-ef2d5e734adc"
+    ],
+    "sectors": [
+      "Computing infrastructure, data processing, hosting and other information service activities"
     ],
     "id": 48,
     "title": "Computerization Executive/ ERP",
@@ -514,6 +614,11 @@
     "occupations": [
       "http://data.europa.eu/esco/occupation/719f101d-1866-49d3-8d5c-2256f606a8b9",
       "http://data.europa.eu/esco/occupation/a9c7a04d-807a-41b5-b441-87c73c73c9c5"
+    ],
+    "sectors": [
+      "Computer consultancy and computer facilities management activities",
+      "Business and other management consultancy activities",
+      "Research and experimental development on social sciences and humanities"
     ],
     "id": 50,
     "title": "SharePoint Developer (Mid-Senior)",
@@ -547,6 +652,12 @@
       "http://data.europa.eu/esco/occupation/f84aae41-28cc-4aa0-a0df-e7c3030516fd",
       "http://data.europa.eu/esco/isco/C214"
     ],
+    "sectors": [
+      "Vocational secondary education",
+      "Computer consultancy and computer facilities management activities",
+      "Business and other management consultancy activities",
+      "Other personal service activities n.e.c."
+    ],
     "id": 51,
     "title": "Junior SAP  Professionals",
     "description": "Company DescriptionWe are Netcompany-Intrasoft, a member of Netcompany Group A/S, and a leading European IT Solutions and Services company with strong international presence and expertise, dedicated to responsible digitalisation. We offer innovative and added-value solutions of the highest quality to a wide range of public and private organizations, while being a key-player in the EU Institutions for the past 30 years. We hold an outstanding record of 500+ organizations in 70+ countries, that have chosen our solutions and services, to fulfil their business needs. Our team of 3500+ professionals is our driving force and our most valuable asset.Job DescriptionAre you ready to join the forefront of technology as a Junior SAP Professional in Netcompany-Intrasoft?We are looking for Junior SAP Professionals to enhance our highly skilled teams who will run new large-scale, challenging SAP Solution projects, due to the expansion of our SAP Solutions business in Greece and internationally.As a Junior SAP Professional you will:Implement and support SAP solutions, in your area of expertise, for new and existing customers, as members of the respective project teamsContribute to all phases of full-cycle SAP implementation projects, from requirements analysis to customization, specifications for any development needed, UAT support, user training, and go-live supportDevelop innovative concepts and implement sophisticated consulting solutionsCreate long-term relationships with clientsIdentify and lead business development opportunitiesAchieve a strong reputation as a business advisorQualificationsWhat would make you a fit for the role:Degree in Computer Science, Engineering, Finance, or Business administrationPassion to learn and work for SAP solutionsExcellent command of the English language (written & oral)Analytical thinking with a problem-solving mindset, combining technical competence with a business consulting approachA dynamic personality with the ability to work independently and also as part of a teamIt would also be a plus if you had:Familiarity with any SAP moduleAdditional InformationBeing a part of the Netcompany-Ιntrasoft team, you will be provided with: The opportunity to work in a modern environment & in a hybrid working modelA seamless onboarding experience and a buddy to support you on your first stepsA competitive compensation & benefits packageHealth and life insurance programMeal and commuting allowanceWell-being activities (on premises)Continuous learning opportunities using the most modern methods (unlimited access to Udemy for Business, ad-hoc trainings)A personalized development plan for targeted career growthIf you are looking forward to be part of a diverse environment, and have the opportunity to work alongside well-experienced professionals, on challenging, large-scale projects that directly impact millions of citizens around the globe, then this is the place to be!By joining Netcompany-Intrasoft Athens, you will be part of a vivid team of 2000+ tech enthusiasts. When at the office you will have the chance to work at our brand-new, state-of-the-art, sustainable offices, located in 3 different spots in Athens!Our cultureOur people are the most important element of our success. Our work life is well defined by our set of fundamental Values: https://netcompany.com/careers/greece/our-values/ #BePartOfSomethingGreat!Please submit your CV in English. All applications will be treated as strictly confidential.We ensure equal opportunities, treatment, and consideration to all candidates. Discrimination based on sex, racial or ethnic origin, religion or belief, disability, age, sexual orientation or marital status, physical or mental disability, or any other factor protected by applicable laws and regulations is prohibited. As part of the Netcompany-Intrasoft culture, we respect human rights and focus on creating a positive workplace, where all employees are valued, and where diversity and inclusion are a vital part of our our everyday working experience.",
@@ -572,6 +683,11 @@
       "http://data.europa.eu/esco/occupation/3a4c4e33-ee34-4abe-ba5c-26f9037d292f",
       "http://data.europa.eu/esco/occupation/a14e96a7-6c4d-4d69-8c6f-7ccadf77bac5",
       "http://data.europa.eu/esco/isco/C3322"
+    ],
+    "sectors": [
+      "WHOLESALE AND RETAIL TRADE",
+      "Activities of head offices",
+      "Other education n.e.c."
     ],
     "id": 53,
     "title": "Full Time Salespeople, Stavroupoli",
@@ -607,6 +723,11 @@
       "http://data.europa.eu/esco/isco/C214",
       "http://data.europa.eu/esco/isco/C3355"
     ],
+    "sectors": [
+      "Research and experimental development on natural sciences and engineering",
+      "Research and experimental development on social sciences and humanities",
+      "Risk and damage evaluation"
+    ],
     "id": 66,
     "title": "Payments Risk Operations Specialist",
     "description": "Etraveli Group is the globally leading company for tech solutions and fulfillment capabilities for online sales of flights. We are here to solve complexity, by connecting millions of flights and travelers across the globe, from search and selection to trip and beyond. We hold consumer online travel agency brands like Mytrip, GoToGate & Flight Network and serve Booking.com with flights. Etraveli Group has also established strategic partnerships with companies like Skyscanner, Google Flights, TUI, etc. Every day we strive to make the world smaller for our customers and bigger for our people. Our diverse team of more than 2400 passionate professionals is what makes us the industry’s tech wonder and the best in the world at what we do. Our major offices are in Sweden (HQ), Canada, Greece, India, Poland with the Athens office being one of the largest, hosting around 580 employees working from the center of Athens for the rest of the world. Join us and start as Payments Risk Operations Specialist in the Risk Management team!Position SummaryIf you are captivated by mind games, you possess strong investigation skills and can see patterns behind numbers and scattered pieces of information, it’s highly likely that Payments Risk Operations Specialist would be your dream job!As a Payments Risk Operations Specialist your main responsibility will be to protect Etraveli Group from financial losses due to fraudulent activities while maintaining sales and customer experience in top performance. Besides screening high risk transactions, this role should also propose innovative improvements in existing processes. The ideal candidate must have excellent investigation, problem solving and decision making skills and is expected to be up-to-date with the latest online fraud trends as well as with potential fraud screening tools.Responsibilities Screen potentially high-risk transactions accurately and in a timely manner utilizing a wide range of fraud prevention systems, tools and reports. Identify fraud patterns or abnormalities and take appropriate actions to prevent similar activities and mitigate potential future fraud. Thoroughly process and analyze fraud alerts received from external sources. Ensure transaction authenticity by contacting customers via phone and/or email. Propose innovative improvements to our existing processes, aiming to further enhance our fraud prevention and detection strategies Deliver dynamic tasks & provide support for a wide range of business analyses. Stay up to date with the latest online fraud trends, practices, and tools through continuous learning & research. Be a problem-solver. Requirements Bachelor’s degree and/or studies preferably in Science, Technology, Engineering, Mathematics. Excellent command of the English language. Advanced experience with MS office (especially Excel) Data driven approach along with strong critical, analytical and investigation skills. Ability to act proactively, take initiatives and demonstrate a can-do attitude focusing on producing high quality results within a fast-paced environment. Team player with strong interpersonal and communication skills including the ability to effectively interact with clients.  Work independently, meet tight deadlines while navigating multiple systems and processes Discretion in dealing with confidential information. High level of responsibility & integrity combined with eagerness to work in a multicultural, international environment subject to continuous changes. Previous work experience as a Fraud Analyst will be considered a plus  Availability to work on shifts around the clock (24/7) – 8-hour shifts, 5 days per week including weekends and bank holidays.  BenefitsWe are looking for people who would make the world smaller for travelers but want a bigger world of opportunities for themselves. With us you can enjoy: #LI-Hybrid working environment - having the opportunity to work both remotely and at the office enabling you flexibility! Health Benefits - Through partners we offer a private health insurance plan. We also offer the possibility to use 2 extra medical leave days in case of need. Monthly ticket restaurant card - to spend in one of the thousands affiliated restaurants, cafes, stores or supermarkets across Greece. Office in the City – We sit on bright, large floors (over 4000㎡!) in central Athens. Just a short walk from the Ambelokipi Metro station. Growth – We believe in personal development and continuous education, thus we offer the opportunity of role-related training on tools and best practices. We also like to schedule company/department/team activities and events outside the office space! We have a relaxed & fun work environment where you can enjoy free breakfast coffee/tea, playing ping pong or video games.  At Etraveli Group we value diversity; we pride ourselves on being a company represented by people of all different backgrounds. During hiring, we are committed to ensure equality and promote diversity in the workplace at every selection stage. As such, we provide the same opportunities for all candidates regardless of race, religion or belief, gender, nationality, ethnicity, sexual orientation, age, marital status, disability, or any other characteristic protected under any anti-discrimination law or regulation.",
@@ -640,6 +761,16 @@
       "http://data.europa.eu/esco/occupation/929ef41d-afd0-4d5a-b85b-69eab68fa368",
       "http://data.europa.eu/esco/occupation/942211c1-b534-4a14-ae85-38ea44c2d14b"
     ],
+    "sectors": [
+      "Risk and damage evaluation",
+      "Research and experimental development on social sciences and humanities",
+      "Activities of collection agencies and credit bureaus",
+      "General public administration activities",
+      "Regulation of and contribution to more efficient operation of businesses",
+      "Legal activities",
+      "Insurance",
+      "Business and other management consultancy activities"
+    ],
     "id": 69,
     "title": "Claims Executive",
     "description": "Join Avis: Where Your Career Finds Purpose and We Redefine Mobility At Avis, we're transforming the way people move and leading the change in the global mobility industry. We're on a mission to innovate and create integrated products and services that open up entirely new travel opportunities with unprecedented convenience and flexibility.Why Avis is the Place to Be:🤝 A Great Place to Work: Avis is more than a company; it's a community that values its people. We take immense pride in providing a collaborative working environment, committed to nurturing innovation, and placing the customer at the core of everything we do.🚀 Your Career, Your Purpose: Join us, and you'll discover that Avis is where your career truly finds its purpose. We're not just offering jobs; we're inviting the best talent to become part of our vision for a better, more connected world.🗝️ Unlock Your Potential with Avis Greece – Claims Executive🗝️Avis Greece is on the hunt for an exceptional Claims Executive who will act as a member of Claims & Insurance Department. A Claims Executive has a multilevel role which includes settling claims using best practices, communicating with clients involved in car accidents but also with third parties, insurance companies regarding claims collection etc. Are you an expert in claims management and client communication? If so, this could be the ideal role for you.🎯 Your Mission:Handle end to end communication and claims settling with customers, third parties, Insurance Companies Maintain an efficient filing system for company’s accidents and claims Reporting and data entry of accidents reports and claims Interact with internal groups such as LTR, RAC and Legal DepartmentAssignment to law firms and follow-up of litigated claims Manage total loss and stolen vehicles processes Requirements🌟 What Spells Success: Your Qualifications  Educational Background: University degree in Insurance, Economics/Business Administration or relevant field  Experience: 2-3 years of working experience in motor claims handling   Analytical Skills: Excel in using MS-Office applications  Team Player: Exhibit a strong team spirit, ethical conduct, and reliability while also being capable of working independently  Effective Multi-Tasking: Manage multiple ongoing tasks with shifting priorities while maintaining attention to detail  Analytical Thinking: Showcase advanced analytical thinking and problem-solving skills  Initiative: Be proactive in suggesting improvements and taking the initiative  Communication: Possess excellent written and verbal communication skills in Greek and English  Customer-centric perception: Focus on excellent customer service Benefits   💼 Explore the Avis PerksCompetitive salary package and bonus schemeHybrid work model Health and life insurance  Pension Plan program  A buddy will support you with your onboarding Monthly Miles for coffee and snacks Opportunity to work in a fast-growing industry with talented people Training opportunities and a continuous feedback performance management system   Unlock your full potential! Apply now to join Avis Greece as our Claims Executive. #AvisGreece #UnlockYourPotential #Operations",
@@ -668,6 +799,11 @@
       "http://data.europa.eu/esco/occupation/6fcf4638-e7c7-4978-9302-9a7b63a3d57c",
       "http://data.europa.eu/esco/occupation/8ec6b513-3d44-4e94-b187-d55734a587a4",
       "http://data.europa.eu/esco/isco/C3431"
+    ],
+    "sectors": [
+      "Research and experimental development on social sciences and humanities",
+      "Activities of head offices",
+      "Security and commodity contracts brokerage"
     ],
     "id": 78,
     "title": "Real Estate Transactions Executive",
@@ -700,6 +836,15 @@
       "http://data.europa.eu/esco/isco/C112",
       "http://data.europa.eu/esco/isco/C2151"
     ],
+    "sectors": [
+      "Other passenger land transport",
+      "Freight transport by road and removal services",
+      "Service activities incidental to land transportation",
+      "Cargo handling",
+      "MANUFACTURING",
+      "Engineering activities and related technical consultancy",
+      "Technical testing and analysis"
+    ],
     "id": 84,
     "title": "O&M Solar - Site Engineer (based in Thessaly, Karditsa)",
     "description": "O&M Solar - Site Engineer (based in Karditsa)\nAs O&M Solar - Site Engineer you will be responsible for performing all corrective and preventive actions of medium and large scale PV Parks.\nKey responsibilities of the role include:\n\n Implementation of the PV Parks preventive maintenance program and proposal of solutions towards its optimization.\n\n         Carrying out remedial work, such as:\n\nOn-site inspection of any damages/accidents.\nCarrying out the necessary actions for the on-site resolution of any incident.\nParticipation and assistance in important corrective actions carried out in the company's photovoltaic parks.\nCompliance with all safety regulations and procedures.\nInspection and evaluation of subcontractors.\nSubmitting reports on the work performed.\nSubscription and support of the daily needs and projects of the Department.\n\n \nMain requirements:\n\nResident of Karditsa, Thessaly\nDiploma in electrical engineering or mechanical engineering.\nTwo years of experience in the construction and maintenance of photovoltaic parks.\nProfessional license for Medium Voltage operations.\nPhysical ability and willingness to perform manual tasks.\nExperience in solving technical issues of solar parks.\nUse of measuring instruments (multimeter, IR camera, I-V curve instrument, transformer measurements, etc.)\nFast learning and rapid adaptation to changes.\nAbility to manage external partners and subcontractors.\nPositive attitude and ability to perform effectively.\n\n \nThe company offers:\n\nAttractive salary package\nDaily running costs\nBusiness laptop and mobile phone\nCompany car\nPrivate health insurance",
@@ -723,6 +868,11 @@
     "occupations": [
       "http://data.europa.eu/esco/occupation/bafbc672-0ad9-41af-9de8-db0c91a24f9b",
       "http://data.europa.eu/esco/occupation/d2ff134e-b41a-4fa3-aceb-1b9f5f5cf015"
+    ],
+    "sectors": [
+      "Office administrative and support activities",
+      "Legal activities",
+      "Business and other management consultancy activities"
     ],
     "id": 85,
     "title": "Billing Officer",
@@ -754,6 +904,15 @@
       "http://data.europa.eu/esco/occupation/68ad860f-c5cd-420f-840f-993e3e813508",
       "http://data.europa.eu/esco/isco/C112",
       "http://data.europa.eu/esco/isco/C2151"
+    ],
+    "sectors": [
+      "Other passenger land transport",
+      "Freight transport by road and removal services",
+      "Service activities incidental to land transportation",
+      "Cargo handling",
+      "MANUFACTURING",
+      "Engineering activities and related technical consultancy",
+      "Technical testing and analysis"
     ],
     "id": 86,
     "title": "O&M Solar - Site Engineer (based in Serres)",
@@ -790,6 +949,21 @@
       "http://data.europa.eu/esco/occupation/f31e25d0-8794-4f88-ac07-a229199c6f0f",
       "http://data.europa.eu/esco/isco/C3257"
     ],
+    "sectors": [
+      "Other passenger land transport",
+      "Freight transport by road and removal services",
+      "Service activities incidental to land transportation",
+      "Cargo handling",
+      "Repair and maintenance of electrical equipment",
+      "Manufacture of computer, electronic and optical products",
+      "Manufacture of electrical equipment",
+      "Manufacture of machinery and equipment n.e.c.",
+      "Manufacture of motor vehicles, trailers and semi-trailers",
+      "Manufacture of other transport equipment",
+      "Repair, maintenance and installation of machinery and equipment",
+      "Regulation of health care, education, cultural services and other social services",
+      "Manufacture of leather and related products of other materials"
+    ],
     "id": 89,
     "title": "MAINTENANCE ELECTRICIAN",
     "description": "As a Maintenance Electrician you will be a Member of the Technical Directorate/Maintenance Department Team and you will be responsible for the preventive maintenance and repair of electromechanical equipment, ensuring the smooth operation of the machines.\nMain Responsibilities:\n\nMaintenance of production equipment and electromechanical installations\nFixing faults during the production process in an immediate and safe way\nParticipation in the construction of the company's New Projects-Facilities\nMaintenance department support work\nControl and ensure the implementation of safety and hygiene regulations\n\n \nRequired Qualifications:\n\nTEI Degree in Electrical Engineering or EPAL Degree or Secondary Technical School or IEK Electrical Department\nProfessional competence with relevant licenses from the Ministry of Development\n2-4 years of experience in a similar position in an industrial environment\nComputer knowledge (Ms office)\nPersonality with Responsibility, flexibility, willingness, team spirit\nAbility to work in rotating shifts\n\nThey will be considered as additional qualifications\nFluency in the use of the English language and knowledge of automation.\n \nWhat we offer:\n\ncompetitive salary (fixed monthly salary and bonus)\ngroup life and health insurance policy and other voluntary benefits in kind\na dynamic, pleasant and modern work environment with team spirit, opportunities for continuous training & development.",
@@ -820,6 +994,12 @@
       "http://data.europa.eu/esco/occupation/754c349d-67d5-48e5-81c1-e84d2fab59d0",
       "http://data.europa.eu/esco/isco/C2265",
       "http://data.europa.eu/esco/isco/C2433"
+    ],
+    "sectors": [
+      "Tertiary education",
+      "Traditional, complementary and alternative medicine activities",
+      "Day spa, sauna and steam bath activities",
+      "Other personal service activities n.e.c."
     ],
     "id": 91,
     "title": "Sales Advisor (Nea Erythraia) / Εκπρόσωπος Πωλήσεων (Νέα Ερυθραία)",
@@ -857,6 +1037,16 @@
       "http://data.europa.eu/esco/isco/C4412",
       "http://data.europa.eu/esco/isco/C911"
     ],
+    "sectors": [
+      "Hotels and similar accommodation",
+      "Activities of call centres",
+      "Market research and public opinion polling",
+      "Research and experimental development on social sciences and humanities",
+      "Retail sale of pharmaceutical products",
+      "Hospital activities",
+      "Retail sale of newspapers, and other periodical publications and stationery",
+      "Restaurants and mobile food service activities"
+    ],
     "id": 92,
     "title": "RECEPTION OFFICER & SECRETARIAL SUPPORT",
     "description": "DYNAMIKI Pharmacy SA, a leading company in its sector, requests to hire, due to growth in the Secretariat department, for permanent cooperation a potential-dynamic professional to cover the following permanent full-time job position in Peristeri Attica:\n           RECEPTION & SECRETARIAL SUPPORT OFFICER (MFA/09.24) \n Main responsibilities:\n\nCall center and mail management (physical and electronic)\nGuest reception and service\nManagement of meeting rooms and cleaning department\nMonitoring stocks of advertising material, office supplies, kitchen and other areas\nMarket research and obtaining quotations from various suppliers for purchasing consumables and placing orders\nSecretarial support of the Managing Director\nSupport in sending gifts, calendars to partners and suppliers during the festive seasons\nSupport in the organization and preparation of (intra)company events Other office work\n\nIdeal Candidate Profile:\n\nA.E.I. degree or T.E.I. business administration or secretarial school\nPrevious experience (2) of two years in a similar position within a large and organized company\nVery good knowledge of Greek and English\nVery good knowledge of Ms Office programs (Excel, Word, Powerpoint, Outlook)\nDeveloped communication and organizational skills\nAbility to manage time effectively\nDeveloped sense of responsibility\nTeam spirit, willingness, flexibility and adaptability\n\nAmenities:\n\nCompetitive salary and benefits package\nContinuous education\nModern and friendly work environment\nDevelopment prospects within a dynamic and developing work environment\n\nInterested candidates are requested to send their CV to the email address hr@dinamiki.gr stating the job code (ΙΠΓ/09.24).\nThe company will contact any candidate who meets the requirements of the position and will schedule a personal assessment meeting at its offices.\nAbsolute confidentiality will be maintained in the management of job applications",
@@ -889,6 +1079,15 @@
       "http://data.europa.eu/esco/occupation/bafbc672-0ad9-41af-9de8-db0c91a24f9b",
       "http://data.europa.eu/esco/occupation/eda0d957-3c3c-4139-b89a-a18bc9e18897",
       "http://data.europa.eu/esco/isco/C3313"
+    ],
+    "sectors": [
+      "Other monetary intermediation",
+      "Other activities auxiliary to financial services, except insurance and pension funding",
+      "FINANCIAL AND INSURANCE ACTIVITIES",
+      "Business and other management consultancy activities",
+      "Activities of extraterritorial organisations and bodies",
+      "Office administrative and support activities",
+      "Accounting, bookkeeping and auditing activities; tax consultancy"
     ],
     "id": 95,
     "title": "Accountant",

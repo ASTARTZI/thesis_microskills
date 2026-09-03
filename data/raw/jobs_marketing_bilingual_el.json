@@ -17,6 +17,13 @@
       "http://data.europa.eu/esco/occupation/d5c4ab26-c293-4f4d-ad89-fe776f49a67f",
       "http://data.europa.eu/esco/occupation/f605bcd2-90b6-45a0-a558-d05016d68a77"
     ],
+    "sectors": [
+      "Activities of head offices",
+      "Research and experimental development on natural sciences and engineering",
+      "Research and experimental development on social sciences and humanities",
+      "Publishing of video games",
+      "Visual arts creation activities"
+    ],
     "id": 19,
     "title": "Retail CRM Team Leader (VLTs)",
     "description": "We are #OPAP\nWe are Greece’s leading gaming company, with 65 years of history and Top Employer in Greece for 2023 & 2024. Our vision is to provide best-in-class entertainment in both retail and online, as well as to give back to society.\nOPAP’s Fast Forward strategy guides our aspirations of delivering affordable and personalized entertainment experiences, while building an agile and dynamic company that enjoys long-term success. Customer centricity, digital orientation, agility, people engagement and social contribution are part of our DNA!\n \nSo what’s the challenge...\n \nAre you ready to drive the transformation of customer relationships and boost engagement? As CRM Team Leader, you'll turn our Retail CRM Strategy into a dynamic and impactful plan that enhances customer value and engagement throughout their lifecycle.\n \nYour day to day will include:\n \n\nImplementing the CRM strategy for Retail Games to boost customer value and engagement\nCollaborating with Sales, Product, Loyalty, and Retail Experience teams to align on roadmap and plan\nReviewing and refining the Retail CRM plan for mass and targeted campaigns, recommending audience segments, reward value, mechanisms, and channels, and finalizing the plan for approval\nDesigning automated lifecycle journeys (welcome, upsell, cross-sell, retention & reactivation) and offering tailored promotions at each stage\nProposing CRM plans utilizing new reward mechanisms (real-time triggers & missions) and conducting A/B testing\nAnalyzing the cost/benefit of the monthly CRM plan, including communication and OPEX budgets, in relation to targets\nMonitoring and presenting performance against KPIs providing insights and proposing automations \nOptimizing campaign management operations to reduce human error and increase efficiency, team capacity, and agility\n\n \nWhat you need to succeed: \n \n\nBSc in Business Administration, Marketing, Mathematics, or other relevant field\n6+ years of hands-on experience in a similar role within a fast-paced organization \nUnderstanding of sophisticated customer segmentation & experience on defining segmented campaigns\nAbility to understand the CRM ecosystem and data infrastructure \nKnowledge of Salesforce Marketing Cloud or other CRM tools (Siebel CRM, Unica, Responsys, Optimove) is preferable\nTeam player with agility and adaptability \nEffective organizational and planning skills to deal with a variety of projects\nPeople management skills\nBusiness Acumen\nAnalytical skills with strong attention to detail \nAbility to work under pressure and deliver with high quality within strict timeframes\nStrong communication and presentation skills both in Greek and English languages\nAdvanced MS Office skills, particularly in MS Excel \n\nWhat’s in it for you?\n\nAn award-winning working environment 🚀\nState of the art facilities including gym & restaurant 🏢\nHybrid working model 💻\nCompetitive salary package and bonus scheme 💸\nHealth insurance coverage & Pension Plan 🙏\nMonthly food allowance 🍴\nContinuous learning with classroom/digital trainings by OpapAcademy 🎓\nInternal Career Opportunities 💼\nWell-Being Activities 💪\n\n \nOPAP Group is an equal opportunity employer\n \nDoes this sound like you? If yes, we would love to meet you!",
@@ -43,6 +50,9 @@
     "occupations": [
       "http://data.europa.eu/esco/occupation/66fb9704-0d56-4673-8e69-7823816b73e1",
       "http://data.europa.eu/esco/isco/C3322"
+    ],
+    "sectors": [
+      "Market research and public opinion polling"
     ],
     "id": 29,
     "title": "Network Development & Sales Manager",
@@ -79,6 +89,15 @@
       "http://data.europa.eu/esco/isco/C2424",
       "http://data.europa.eu/esco/isco/C522"
     ],
+    "sectors": [
+      "Business and other management consultancy activities",
+      "Activities of head offices",
+      "WHOLESALE AND RETAIL TRADE",
+      "Wholesale of household goods",
+      "Wholesale of information and communication equipment",
+      "Wholesale of other machinery, equipment and supplies",
+      "Other specialised wholesale"
+    ],
     "id": 43,
     "title": "Junior Field Sales Representative",
     "description": "Mellon Technologies, the parent company of Mellon Group of Companies, was founded in 1994 in Athens. Our offering consists of specialized technology solutions, contact centre and business process outsourcing services.\nMellon Technologies is seeking motivated and energetic Junior Field Sales Representatives to join our team.The primary responsibility of this role is to visit door-to-door retail merchants to promote payment acceptance solutions and services related to EFTPOS (Electronic Funds Transfer at Point Of Sale). This is an exciting opportunity to join a dynamic team and grow with a leading company in the financial services industry.\nKey Responsibilities:\n\nConduct door-to-door sales visits to retail merchants within assigned territories\nPromote and sell EFTPOS solutions to potential customers\nDemonstrate product features and benefits to prospective clients\nBuild and maintain strong relationships with retail merchants\nAchieve sales targets and KPIs set by the management\nProvide excellent customer service and support to clients\nCollect and report market feedback and sales data to the management team\nAttend training sessions and sales meetings as required\n\nRequirements:\n\nHigh school diploma or equivalent; a bachelor’s degree in business, marketing, or a related field is a plus\nPrevious experience in sales, especially field sales or door-to-door sales, is preferred\nExcellent communication and interpersonal skills\nStrong negotiation and persuasion abilities\nSelf-motivated with a results-driven approach\nAbility to work independently and as part of a team\nValid driver’s license\n\nBenefits:\n\nCompetitive salary and commission structure\nMulticultural and excellent working environment\nOpportunities for career advancement",
@@ -104,6 +123,12 @@
       "http://data.europa.eu/esco/occupation/586fe133-1987-41f4-b89a-f39d4bc58e1e",
       "http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d",
       "http://data.europa.eu/esco/occupation/dc97adbe-f807-4ad8-8f3c-c24b3416cdef"
+    ],
+    "sectors": [
+      "Activities of head offices",
+      "Activities of advertising agencies",
+      "Computer programming activities",
+      "Computer consultancy and computer facilities management activities"
     ],
     "id": 76,
     "title": "Senior Full Stack Developer (PHP & JavaScript)",
@@ -133,6 +158,11 @@
       "http://data.europa.eu/esco/occupation/6fcf4638-e7c7-4978-9302-9a7b63a3d57c",
       "http://data.europa.eu/esco/occupation/8ec6b513-3d44-4e94-b187-d55734a587a4",
       "http://data.europa.eu/esco/isco/C3431"
+    ],
+    "sectors": [
+      "Research and experimental development on social sciences and humanities",
+      "Activities of head offices",
+      "Security and commodity contracts brokerage"
     ],
     "id": 78,
     "title": "Real Estate Transactions Executive",
@@ -166,6 +196,13 @@
       "http://data.europa.eu/esco/occupation/a2bc52c2-9802-4929-a95c-6379d9f19204",
       "http://data.europa.eu/esco/isco/C1212"
     ],
+    "sectors": [
+      "Business and other management consultancy activities",
+      "Employment activities",
+      "Research and experimental development on social sciences and humanities",
+      "Market research and public opinion polling",
+      "Manufacture of leather and related products of other materials"
+    ],
     "id": 88,
     "title": "HR Generalist",
     "description": "In the team of kariera.gr | Hiring Solutions, we leverage our wealth of knowledge in staffing jobs covering all levels - mid-level and senior. We understand the diverse landscape of career opportunities and tailor our approach to meet your unique skills and aspirations.\nIn the team of kariera.gr | Hiring Solutions your every professional move is a step towards excellence. Choose us as the catalyst for your success, and let's plan your future together.\nKariera's Hiring Solutions team is looking for an HR Generalist on behalf of a client - a company active in the marketing and distribution of parapharmaceutical products and health food items. \nKey Responsibilities:\n\nPreparation and issuance of payroll for the company's employees\nParticipating in the process of recruiting new employees, including creating job descriptions, interviews and financial offers\nManagement of staff hiring and leaving processes\nCreation of organizational chart and job description for all staff\nUse of the ERGANI system for personnel changes, licenses and digital card\nLiaising with mobile service providers and leasing companies to process employee benefits agreements\nOrganization of the corporate trips of the company's sellers \nOrganization of seminars and corporate events \n\nRequired Qualifications:\n\n3-5 years of previous experience in a similar role\nUniversity/Tei Degree in Business Administration, HR or Finance \nExcellent knowledge ERGANI\nFamiliarity with the recruitment process\nVery good knowledge of English\nDeveloped communication skills\nOrganizational skills\n\n \n #hiringsolutionsisrecruiting",
@@ -196,6 +233,15 @@
       "http://data.europa.eu/esco/isco/C3322",
       "http://data.europa.eu/esco/occupation/47e81c7f-2d04-4a60-a8ff-9913c36d8344"
     ],
+    "sectors": [
+      "Warehousing and storage",
+      "Research and experimental development on social sciences and humanities",
+      "General public administration activities",
+      "Foreign affairs",
+      "Activities of extraterritorial organisations and bodies",
+      "Business and other management consultancy activities",
+      "Advertising"
+    ],
     "id": 90,
     "title": "Office Clerk",
     "description": "In the team of kariera.gr | Hiring Solutions, we leverage our wealth of knowledge in staffing jobs covering all levels - mid-level and senior. We understand the diverse landscape of career opportunities and tailor our approach to meet your unique skills and aspirations.\nIn the team of kariera.gr | Hiring Solutions your every professional move is a step towards excellence. Choose us as the catalyst for your success, and let's plan your future together.\nThe Kariera Hiring Solutions team is looking for an Assistant Accountant on behalf of a client company active in the field of marketing and distribution of parapharmaceutical products and health food items.\nKey Responsibilities:\n\nEntry of sales documents, orders, purchase documents (imports), receipts (cash & checks)\nKnowledge and experience in Commercial Company Sales Pricing\nUse of ERP software programs (SOFTONE & ENTERSOFT)\nWarehouse and import chain management\nElaboration of financial reporting\nCommunication and cooperation with members of the Administration \nConfidentiality, integrity and the ability to build and maintain trusting relationships\n\nRequired Qualifications:\n\nUniversity/Tei Degree in Business Administration or Finance\n3-5 years of experience in the Financial Department of a company\nVery good knowledge and experience of ERP software programs (SOFTONE & ENTERSOFT)\nExcellent knowledge of PC and MS Office\nGood knowledge of the English language\nCommunication & organizational skills and perception\nAnalytical thinking and team spirit\n\nThe company offers: \n\nCompetitive remuneration package\nRespectful and dynamic work environment\nContinuous training and development\n\n \n #hiringsolutionsisrecruiting",
@@ -225,6 +271,11 @@
       "http://data.europa.eu/esco/occupation/e2a495fb-68a3-46f9-8753-6ce566a7a085",
       "http://data.europa.eu/esco/isco/C1120",
       "http://data.europa.eu/esco/isco/C213"
+    ],
+    "sectors": [
+      "Manufacture of basic pharmaceutical products and pharmaceutical preparations",
+      "Engineering activities and related technical consultancy",
+      "Research and experimental development on natural sciences and engineering"
     ],
     "id": 120,
     "title": "Business Development Director - In Licensing and Corporate Alliances",
@@ -259,6 +310,12 @@
       "http://data.europa.eu/esco/isco/C7222",
       "http://data.europa.eu/esco/isco/C251"
     ],
+    "sectors": [
+      "Activities of brokers and agents for electric power and natural gas",
+      "Security and commodity contracts brokerage",
+      "Activities of head offices",
+      "Computer consultancy and computer facilities management activities"
+    ],
     "id": 129,
     "title": "FOREIGN SELLER",
     "description": "KARADIMAS ATHANASIOS E.E., which is active in the Greek market with a rapidly growing sales network, develops, markets and distributes the strongest brands of industrial tools and paint store items.\nThe company aims to become one of the protagonists in the field of tools in the Greek market and is looking to hire\nWholesaler based in Athens\nPosition Description:\nThe suitable person will be responsible for the development of sales and distribution of the company's products, the recognition and exploitation of opportunities in his area of ​​responsibility for his further development. Ensuring the continuous and sufficient flow of information to and from the market, the achievement of the target and the profitability of the company's products through the implementation of the marketing and sales strategy.\nNecessary qualifications:\nAt least five (5) years of experience in an organized and demanding sales environment / experience in the industry of industrial goods and paint shop goods will be preferred\nDeree degree / higher or higher economic or technical school will be appreciated\nGood computer skills (Windows, Office)\nHolder of amateur driver's license\nExcellent communication and negotiation skills\nMethodology and organizational skills\nResult Orientation\nAbility to solve problems, flexibility and teamwork\nAbility to collect, analyze and summarize data\nAbility to travel and spend the night away from home 40% of the time\nHobby dealing with computers, technology and Do It Yourself\nAged 25-45 years\nMale candidates must have fulfilled military obligations\nDesired qualifications:\nMaster's degree\nKnowledge of English language\nThe company offers:\nExcellent remuneration depending on qualifications and experience\nAccess to extra high bonuses\nExcellent working environment\nDevelopment prospects in a rapidly growing company\nContinuous education\nwww.karadimas-tools.gr\nSend CV only from those who have exactly the required qualifications.",
@@ -288,6 +345,12 @@
       "http://data.europa.eu/esco/occupation/f31e25d0-8794-4f88-ac07-a229199c6f0f",
       "http://data.europa.eu/esco/isco/C2133"
     ],
+    "sectors": [
+      "Repair and maintenance of machinery",
+      "Service activities incidental to air transportation",
+      "Processing and preserving of fish, crustaceans and molluscs",
+      "Manufacture of leather and related products of other materials"
+    ],
     "id": 145,
     "title": "MECHANICAL MAINTENANCE TECHNICIAN",
     "description": "ANOXAL is a subsidiary company of the ElvalHalcor Group, specifically in the field that specializes in the production, processing and marketing of aluminum products with a dynamic presence in the domestic and global market.\nANOXAL's modern recycling unit and foundry offer innovative solutions and technology for new alloys. The facilities are located in Oinophyta (Ag. Thomas Boiotias) and include a unit for sorting, processing and recycling aluminum scrap as well as a casting unit, descaling, melting, waiting and homogenizing furnaces.\nThe safety of our people is our highest priority. We aim for zero accidents and zero environmental incidents every year and are committed to complying with environmental regulations and procedures.\nWe are looking for a person to join our team for the position of Mechanical Maintenance Technician, who will contribute to the repair and maintenance of the factory's mechanical equipment. This role includes the detection and resolution of problems in the operation of the machines, their regular maintenance and also the maintenance of the building infrastructure at the highest possible degree of functionality.\nResponsibilities:\n\nCarrying out repair and maintenance of the mechanical equipment of the industrial plant and buildings\nExecution of regular maintenance plan\nMechanical installation of new projects and mechanical equipment\nUpdate the shift maintenance book\n\nRequired Qualifications:\n\nDegree in Engineering (IEK/EPAL/TEI)\n1-3 years of work experience in mechanical equipment maintenance in an industrial environment\nKnowledge of mechanical drawing reading desired\nAbility to perform diagnostic analysis and problem solving\nAbility to work in shifts\nExcellent communication skills/team spirit\n\n \nAmenities:\n\nCompetitive salary packages, insurance and other benefits\nPossibility of travel by company buses from Attica, Boeotia and Evia\nSafe and friendly work environment\nContinuous education\n\nInterested parties are requested to send their CV to hr@anoxal.gr.",
@@ -315,6 +378,16 @@
       "http://data.europa.eu/esco/occupation/579254cf-6d69-4889-9000-9c79dc568644",
       "http://data.europa.eu/esco/occupation/7bc02fa7-7aaa-41a6-be5b-ab7a7b6684d3",
       "http://data.europa.eu/esco/isco/C3"
+    ],
+    "sectors": [
+      "Hospital activities",
+      "Medical specialists activities",
+      "Nursing and midwifery activities",
+      "Manufacture of computer, electronic and optical products",
+      "MANUFACTURING",
+      "Engineering activities and related technical consultancy",
+      "Technical testing and analysis",
+      "Distribution of gaseous fuels through mains"
     ],
     "id": 168,
     "title": "SHIFT TECHNICIAN",
@@ -345,6 +418,14 @@
       "http://data.europa.eu/esco/occupation/d261a6a4-7ea7-4295-a84e-f4b1a56990d7",
       "http://data.europa.eu/esco/isco/C3322"
     ],
+    "sectors": [
+      "Business and other management consultancy activities",
+      "Activities of advertising agencies",
+      "Risk and damage evaluation",
+      "Buying and selling of own real estate",
+      "Rental and operating of own or leased real estate",
+      "Real estate activities on a fee or contract basis"
+    ],
     "id": 213,
     "title": "Real Estate Sales Consultant - Start from scratch, conquer the market (Piraeus)",
     "description": "NEW COMMUNITY - NEW MODEL - NEW PROPOSAL\nWelcome to newdeal real estate group, the most innovative and integrated ecosystem for the real estate industry in Greece.\nWe recognize the value of education and continuous development, which is why we have created opportunities waiting for you to discover.\nIt's time to showcase your talent and double your income.\nReal estate sales is a highly competitive and demanding field. \"We have several Consultants at newdeal whose profits from sales and rentals move annually even in six figures\" says Stavroula Vamvaka, founder of the company.\nWhat sets them apart and achieves so much revenue is their ability to sell. And this is where real estate education comes in.\nTo help you become the best Real Estate Consultants/brokers with the highest revenue we have established the first Real Estate Academy in Greece and we are collaborating with the National and Kapodistrian University of Athens Department of Accounting | T.D.E.O. and we offer the best training programs. See here.\n \nWhat else do we offer?\n\n30 Day Program for Beginners: A unique program for new entrants, equivalent to 30 opportunities for dynamic market entry and quick results.\nUnbeatable Remuneration Package: we have the best remuneration system in the market. It is a fair system that rewards performance. The Advisor/broker initially receives 55% of the commission and goes up to 100% after a minimum production threshold.\nLarge Client Base: We have an extensive client base looking to buy or sell real estate.\n24/7 Continuous Support, continuous coaching. We provide guidance and support in everyday life for all our partners.\nOpen minded: We respect diversity and innovation.\nYour success is our passion: We do smart marketing and use state-of-the-art tools,\nCOOL tour. New lifestyle: We are a community of equals, proud of each other. We are cool and enjoy a free enterprise culture.\n\nIf you have drive, tenacity and ambition, and have experience in the field of customer service as a real estate agent, salesperson, freelancer, insurance consultant or marketing professional, then you already have a competitive advantage for a successful career as a Real Estate Consultant.\n \nIf you want a professional financial success then you are the one we are looking for!",
@@ -374,6 +455,14 @@
       "http://data.europa.eu/esco/occupation/d261a6a4-7ea7-4295-a84e-f4b1a56990d7",
       "http://data.europa.eu/esco/isco/C3322"
     ],
+    "sectors": [
+      "Business and other management consultancy activities",
+      "Activities of advertising agencies",
+      "Risk and damage evaluation",
+      "Buying and selling of own real estate",
+      "Rental and operating of own or leased real estate",
+      "Real estate activities on a fee or contract basis"
+    ],
     "id": 214,
     "title": "Real Estate Sales Consultant - Start from scratch, conquer the market (Nice & Western Suburbs)",
     "description": "NEW COMMUNITY - NEW MODEL - NEW PROPOSAL\nWelcome to newdeal real estate group, the most innovative and integrated ecosystem for the real estate industry in Greece.\nWe recognize the value of education and continuous development, which is why we have created opportunities waiting for you to discover.\nIt's time to showcase your talent and double your income.\nReal estate sales is a highly competitive and demanding field. \"We have several Consultants in newdeal whose profits from sales and rentals move annually even in six figures\" says Stavroula Vamvaka, founder of the company.\nWhat sets them apart and achieves so much revenue is their ability to sell. And this is where real estate education comes in.\nTo help you become the best Real Estate Consultants/brokers with the highest revenue we have established the first real estate Academy in Greece and we are collaborating with the National and Kapodistrian University of Athens Department of Accounting | T.D.E.O. and we offer the best training programs. See here.\n \nWhat else do we offer?\n\n30 Day Program for Beginners: A unique program for new entrants, equivalent to 30 opportunities for dynamic market entry and quick results.\nUnbeatable Remuneration Package: we have the best remuneration system in the market. It is a fair system that rewards performance. The Advisor/broker initially receives 55% of the commission and goes up to 100% after a minimum production threshold.\nLarge Client Base: We have an extensive client base looking to buy or sell real estate.\n24/7 Continuous Support, continuous coaching. We provide guidance and support in everyday life for all our partners.\nOpen minded : We respect diversity and innovation.\nYour success is our passion: We do smart marketing and use state-of-the-art tools,\nCOOL tour. New lifestyle: We are a community of equals, proud of each other. We are cool and enjoy a free enterprise culture.\n\nIf you have drive, tenacity and ambition, and have experience in the field of customer service as a real estate agent, salesperson, freelancer, insurance consultant or marketing professional, then you already have a competitive advantage for a successful career as a Real Estate Consultant.\n \nIf you want a professional financial success then you are the one we are looking for!",
@@ -401,6 +490,14 @@
       "http://data.europa.eu/esco/occupation/7e46c066-2b98-4eaf-bed6-9848c79902e0",
       "http://data.europa.eu/esco/occupation/d261a6a4-7ea7-4295-a84e-f4b1a56990d7",
       "http://data.europa.eu/esco/isco/C3322"
+    ],
+    "sectors": [
+      "Business and other management consultancy activities",
+      "Activities of advertising agencies",
+      "Risk and damage evaluation",
+      "Buying and selling of own real estate",
+      "Rental and operating of own or leased real estate",
+      "Real estate activities on a fee or contract basis"
     ],
     "id": 215,
     "title": "Real Estate Sales Agent - No Experience? No problem! We are the Academy of Professionals (Alimos & Southern Suburbs)",
@@ -431,6 +528,14 @@
       "http://data.europa.eu/esco/isco/C3322",
       "http://data.europa.eu/esco/isco/C3334"
     ],
+    "sectors": [
+      "Business and other management consultancy activities",
+      "Activities of advertising agencies",
+      "Risk and damage evaluation",
+      "Buying and selling of own real estate",
+      "Rental and operating of own or leased real estate",
+      "Real estate activities on a fee or contract basis"
+    ],
     "id": 216,
     "title": "Real Estate Agent - From beginner to professional. We are the road (Kifissia & Northern Suburbs)",
     "description": "Looking for the next big real estate career opportunity? Are you ready to take control of your income and improve the quality of your work life? \nIs commission money an incentive to get into real estate sales? If yes, then start reading why NewDeal is the best choice.\nnewdeal real estate group wishes to embrace business enthusiastic, ambitious professionals who want to develop their career in a progressive and supportive environment.\nWe have an unbeatable remuneration package\nIt is a fair system that rewards performance. The Advisor/broker receives from the first euro 55% of the commission and when he exceeds a minimum production threshold, annually, he receives from each transaction 100% of the fee.\nFor example: The commission from the sale of a property worth 150,000 is 6,000 euros. Of these, his salary is 3300 euros.  When his commissions exceed a limit within the year  then from each subsequent transaction he receives 100% of the fee. In our example, the entire amount of 6,000 euros! \nnewdeal is much more than just a real estate business: it is a progressive framework that develops the business skills of its partners.\nWhat else do they do that sets us apart:\n\nEducation at the highest level: We have established the first real estate Academy in Greece and cooperate with the National and Kapodistrian University of Athens | Department of Accounting T.D.E.O.\nLarge Client Base: We have an extensive client base looking to buy or sell real estate.\n24/7 Continuous Support, continuous coaching: We provide everyday guidance and support for all our partners.\nOpen minded: We respect diversity and innovation.\nYour success is our passion: We do smart marketing and use state-of-the-art tools,\nCOOL tour. New lifestyle: We are a community of equals, proud of each other. We are cool and enjoy a free enterprise culture.\n\nIf you have: Drive, tenacity and ambition, and have customer service experience as a real estate agent, salesperson, freelancer, insurance consultant or marketing professional, then you already have a competitive edge for a successful career as a Real Estate Consultant.\nIf you want a professional financial success then you are the one we are looking for!",
@@ -459,6 +564,14 @@
       "http://data.europa.eu/esco/occupation/7e46c066-2b98-4eaf-bed6-9848c79902e0",
       "http://data.europa.eu/esco/occupation/d261a6a4-7ea7-4295-a84e-f4b1a56990d7",
       "http://data.europa.eu/esco/isco/C3322"
+    ],
+    "sectors": [
+      "Business and other management consultancy activities",
+      "Activities of advertising agencies",
+      "Risk and damage evaluation",
+      "Buying and selling of own real estate",
+      "Rental and operating of own or leased real estate",
+      "Real estate activities on a fee or contract basis"
     ],
     "id": 217,
     "title": "Real Estate Agent - Are you a beginner? Start at newdeal (Larissa)",
@@ -495,6 +608,17 @@
       "http://data.europa.eu/esco/occupation/a47f82d3-4cf7-4abf-bb36-2c8cbad28234",
       "http://data.europa.eu/esco/occupation/d5c4ab26-c293-4f4d-ad89-fe776f49a67f",
       "http://data.europa.eu/esco/isco/C2432"
+    ],
+    "sectors": [
+      "Activities of head offices",
+      "Organisation of conventions and trade shows",
+      "Activities of advertising agencies",
+      "Market research and public opinion polling",
+      "Research and experimental development on social sciences and humanities",
+      "News agency activities",
+      "Literary creation and musical composition activities",
+      "Publishing of video games",
+      "Visual arts creation activities"
     ],
     "id": 224,
     "title": "Communication & Events Associate",
@@ -538,6 +662,17 @@
       "http://data.europa.eu/esco/isco/C1411",
       "http://data.europa.eu/esco/isco/C334"
     ],
+    "sectors": [
+      "Accommodation",
+      "Activities of head offices",
+      "Hotels and similar accommodation",
+      "Activities of advertising agencies",
+      "Research and experimental development on social sciences and humanities",
+      "All other professional, scientific and technical activities n.e.c.",
+      "ACCOMMODATION AND FOOD SERVICE ACTIVITIES",
+      "Travel agency, tour operator and other reservation service and related activities",
+      "Amusement and recreation activities"
+    ],
     "id": 234,
     "title": "Junior Revenue Analyst - Oia Santorini",
     "description": "We are seeking a highly analytical and detail-oriented Junior Revenue Analyst to join our dynamic team in the hotel industry. As a Junior Revenue Analyst, you will report to the Commercial Manager and contribute to maximizing revenue and profitability.\nResponsibilities:\n\nResponsible for mapping new accounts to the Channel Manager.\nResponsible for auditing mapping and connectivity and updating with any changes.\nDaily monitoring of inventory management.\nPreparation of stop sales and extra allotment requests.\nCommunication with Front Office Team regarding room allocations.\nDaily pickup analysis to monitor reservation patterns to ensure optimal utilization of inventory.\nPreparation of daily reports.\nGenerate reports and update as per the need of the department.\nUpdate rates and restrictions according to Commercial Manager’s guidelines.\nImplementation of offers in the Channel Manager, Booking Engine, partners platforms and OTA extranets.\nResponsible for investigating parity issues and update information as needed.\nConduct regular analysis of competitor pricing, promotions, and market positioning.\nWork closely with sales, marketing, and the operations teams to align revenue management strategies with overall business goals.\nGood level of Excel.\nExperience with WebHotelier, PMS.\nExperiencer with OTA Extranets.\n\n*Additional tasks as per the need of the department.\nNecessary Qualifications:\n\nFluent in English\nBachelor's degree in Hospitality Management, Business, Economics, or a related field\nPrior experience in Hospitality\nAnalytical & numerical skills\nKnowledge of Excel\n\nDesirable Qualifications:\n\nHigh level of motivation, determination and commitment\nAttention to detail\nCommunications & listening skills/ Team player\nAdaptable & Multitasking\nCommercial mindset\n\nBenefits:\n\nCompetitive salary remuneration\nCareer development in a fast-paced, growing work environment.\nTraining opportunities.\nDaily meals during hotel operations\nFull year job\nFriendly work environment\n\nIf you are a strategic thinker with a keen understanding of the hotel industry and eager to learn more about revenue management, we invite you to apply for this exciting opportunity to contribute to our success!\nPlease send your CV in English, with a recent photo attached.",
@@ -569,6 +704,13 @@
       "http://data.europa.eu/esco/occupation/c9191f7f-28b5-4df8-991d-804c53009b83",
       "http://data.europa.eu/esco/isco/C6121",
       "http://data.europa.eu/esco/isco/C631"
+    ],
+    "sectors": [
+      "Activities of advertising agencies",
+      "Other human health activities n.e.c.",
+      "Business and other management consultancy activities",
+      "Growing of non-perennial crops",
+      "Growing of perennial crops"
     ],
     "id": 236,
     "title": "FARM THE FUTURE WITH TIMAC AGRO",
@@ -624,6 +766,22 @@
       "http://data.europa.eu/esco/occupation/cb4f98c8-6b8d-41d8-87eb-a2a2033a3a25",
       "http://data.europa.eu/esco/occupation/f1ecc3c4-8212-4386-871a-6fda1b5b4d91"
     ],
+    "sectors": [
+      "Business and other management consultancy activities",
+      "Intermediation service activities for passenger transportation",
+      "Intermediation service activities for accommodation",
+      "Travel agency activities",
+      "Activities of head offices",
+      "Transport via pipeline",
+      "Computer consultancy and computer facilities management activities",
+      "Regulation of and contribution to more efficient operation of businesses",
+      "Gambling and betting activities",
+      "Wholesale of information and communication equipment",
+      "Research and experimental development on social sciences and humanities",
+      "General public administration activities",
+      "Retail sale of second-hand goods",
+      "Intermediation service activities for specialised retail sale"
+    ],
     "id": 251,
     "title": "Pre-Sales & Bidding Specialist",
     "description": "About the Role\\nINTRALOT is looking for a Pre-Sales & Bidding Specialist to drive the development of high-quality, competitive, and compliant bid responses. In this role, you will be responsible for managing the end-to-end bidding process, ensuring alignment with customer requirements and industry regulations. You will collaborate with technical and business teams to deliver structured proposals that effectively present INTRALOT's value proposition.\\n\\nKey Responsibilities\\nManage the full bid lifecycle, from qualification and proposal development to submission and contract negotiations.Analyze RFPs and bid requirements, ensuring compliance and technical feasibility.Develop structured, compelling proposals, integrating technical and commercial content.Coordinate inputs from multiple teams, including Sales, Marketing, Product, Finance, Legal, and Technical experts.Maintain and enhance the proposal content database, ensuring accuracy and efficiency.Monitor industry trends in Lottery & Gaming, including gaming platforms, PAM, networks, and system architectures.Support sales pipeline management, identifying and tracking business opportunities.What You Bring\\nBachelor's degree in IT, Computer Science, Business, or a related field (Master's preferred).1-3 years of experience in Bid Management, Pre-Sales, or Technical Writing.Familiarity with public procurement processes, government tenders, and compliance frameworks.Understanding of hardware & software procurement, system architectures, and IT solutions.Strong analytical and communication skills, with the ability to structure complex information into clear, persuasive proposals.Fluency in Greek & English, both written and spoken.Detail-oriented mindset, with the ability to manage multiple projects under strict deadlines.\\n  About Us: INTRALOT, a publicly listed company established in 1992, is a leading gaming solutions supplier and operator active in 39 regulated jurisdictions worldwide. With a global workforce of approximately 1,700 employees, INTRALOT is committed to redefine innovation and quality of services in the lottery and gaming sector, while supporting operators in raising funds for good causes. In 2023, INTRALOT was distinguished as a top ten most attractive employer brands in Greece.\\n\\n\\n\\nINTRALOT has been awarded the prestigious WLA Responsible Gaming Framework Certification by the World Lottery Association. We always act with integrity and enjoy what we do.\\n\\nWhy Join Us:\\n A competitive compensation package combined with additional benefits.\\n Hybrid working model.\\n Private Insurance for you and your family.\\n Modern facilities, parking inside, enticing restaurant and corporate bus.\\n An extensive training program upon induction and throughout employment.\\n Exceptional opportunities to learn and develop in a multinational environment.\\n Prospects for professional growth both locally and globally.\\n\\nWe are an Equal Opportunity Employer. We do not discriminate in any employment practices for reasons of race, color, religion, gender, sexual orientation, national origin, age, marital status, medical condition or disability, or any other legally protected status. Our premises at Paiania, Attica, have been designed to provide easy access to people with disabilities.\\n\\n\\n\\n#CB#",
@@ -654,6 +812,18 @@
       "http://data.europa.eu/esco/occupation/b76178c0-a03a-4793-b079-1e61e636c521",
       "http://data.europa.eu/esco/isco/C2433"
     ],
+    "sectors": [
+      "Non-specialised retail sale",
+      "Retail sale of food, beverages and tobacco",
+      "Retail sale of automotive fuel",
+      "Retail sale of information and communication equipment",
+      "Retail sale of other household equipment",
+      "Retail sale of cultural and recreational goods",
+      "Retail sale of other goods, except motor vehicles and motorcycles",
+      "Manufacture of perfumes and toilet preparations",
+      "Activities of head offices",
+      "Business and other management consultancy activities"
+    ],
     "id": 282,
     "title": "Business Development Associate",
     "description": "Business Development Associate\nAbout the company\nPolypack Group is a fast-growing company actively operating in the wholesale and trading of packaging for the Pharmaceutical, Cosmetic and Nutraceutical sector. Our company is actively trading 700+ types of packaging with a strong presence in the Greek and Global market.\nAbout the job\nAs a Business Development Associate, you will be a crucial contributor to the fast growth of Polypack Group, responsible for developing the business operations of our company in the Greek market. Together with the Head of Sales department, you will be responsible for lead sourcing, contacting new prospects and existing clients and assisting in bringing new business in all the sectors our company is operating in.\nResponsibilities\n\nSearch for new leads in Pharmaceutical, Cosmetics and Nutraceutical sector\nContact new and existing clients by phone and email.\nForm business proposals together with the Head of Sales Operations.\nPreparation of commercial documentations for new and existing clientele.\nMeet new and existing clients together with the Head of Sales to bring new business.\nAssisting customers and resolving business issues.\n\nWhy Join Us?\n\nIndustry-leading salary according to your level of work experience and hard-soft skills.\nCompetitive performance bonus scheme.\nRapid career progression due to the big variety of products we offer and our international exposure.\nDeep learning about all the types of packaging used in all the sectors we operate in.\nModern and friendly working environment.\n\nRequirements for the job\n\nBachelor’s degree in Business Administration, Marketing or any related field.\nPrevious work experience in sales is a plus, but not needed.\nStrong communication and verbal skills are required.\nHardworking spirit and ambition for personal growth is highly required. \nHigh desire to learn and grow in sales is considered a must.",
@@ -678,6 +848,10 @@
       "http://data.europa.eu/esco/occupation/6cd08cbe-7611-4d70-8886-6c59c0385442",
       "http://data.europa.eu/esco/isco/C2431",
       "http://data.europa.eu/esco/isco/C2433"
+    ],
+    "sectors": [
+      "Activities of advertising agencies",
+      "Research and experimental development on social sciences and humanities"
     ],
     "id": 301,
     "title": "NGO Representatives / Positions without Experience",
@@ -705,6 +879,11 @@
       "http://data.europa.eu/esco/occupation/133ab775-f08d-4bc7-8629-89d286180f4e",
       "http://data.europa.eu/esco/occupation/137b1d11-c4bc-4016-89ba-45345d4c71f0",
       "http://data.europa.eu/esco/occupation/6fcf4638-e7c7-4978-9302-9a7b63a3d57c"
+    ],
+    "sectors": [
+      "Activities of head offices",
+      "Business and other management consultancy activities",
+      "Public relations and communication activities"
     ],
     "id": 305,
     "title": "Marketing & Communications Manager",
@@ -744,6 +923,13 @@
       "http://data.europa.eu/esco/isco/C1324",
       "http://data.europa.eu/esco/isco/C2621"
     ],
+    "sectors": [
+      "Activities of head offices",
+      "Activities of advertising agencies",
+      "Wholesale of sugar, chocolate and sugar confectionery",
+      "Research and experimental development on social sciences and humanities",
+      "Activities of call centres"
+    ],
     "id": 323,
     "title": "Office Coordinator",
     "description": "RVU Distribution is a dynamically growing luxury fashion trading company in Europe and the official distributor of the international brands Barbour, Marc O'Polo, Happy Socks, Samsonite and Scotch & Soda in the Greek Market. Driven by high quality, it sets standards in the market through retail, e-commerce and wholesale outlets.\n \nRVU: Building partnerships, Delivering excellence\n \nPosition Description:\n•    Call center management and reception of visitors.•    Internal announcements and management of electronic mail.•    Archiving of documents and invoices.•    Management of shipments and receipts via courier.•    Coordination of maintenance of offices and equipment.•    Management for orders of consumables by item in 35 stores always in communication with the Brand Directors•    Marketing department support in terms of coordinating visual missions•    Organization and support of events and trips.\nCandidate Profile:\nHigh school/IEK/TEI/HEI graduate. Desirable previous experience in a similar position. Good knowledge of the English language. Knowledge of PC and MS Office applications. Ability to manage priorities and organization. Communication skills and customer-oriented approach. .•    Responsibility and ability to solve problems.\nCompany Benefits:\nMixed salary package €1000 gross 💼•  Inclusive work environment and continuous training 🌱•  Professional development opportunities 🚀•  Reduced prices on our company's products 🛍️",
@@ -776,6 +962,12 @@
       "http://data.europa.eu/esco/isco/C3",
       "http://data.europa.eu/esco/isco/C3313",
       "http://data.europa.eu/esco/isco/C3323"
+    ],
+    "sectors": [
+      "Activities of head offices",
+      "Non-specialised retail sale",
+      "Accounting, bookkeeping and auditing activities; tax consultancy",
+      "MANUFACTURING"
     ],
     "id": 345,
     "title": "ASSISTANT ACCOUNTANT",
@@ -811,6 +1003,15 @@
       "http://data.europa.eu/esco/occupation/a7594892-ff23-4e2a-aedf-2f967ebca15c",
       "http://data.europa.eu/esco/occupation/c956be07-53a3-4b01-b8f8-f0c5a428eaa8",
       "http://data.europa.eu/esco/isco/C2424"
+    ],
+    "sectors": [
+      "Business and other management consultancy activities",
+      "Activities of head offices",
+      "WHOLESALE AND RETAIL TRADE",
+      "Wholesale of household goods",
+      "Wholesale of information and communication equipment",
+      "Wholesale of other machinery, equipment and supplies",
+      "Other specialised wholesale"
     ],
     "id": 346,
     "title": "Junior Field Sales Representative",
@@ -849,6 +1050,12 @@
       "http://data.europa.eu/esco/isco/C2433",
       "http://data.europa.eu/esco/isco/C7318"
     ],
+    "sectors": [
+      "Intermediation service activities for retail sale",
+      "Activities of head offices",
+      "Activities of advertising agencies",
+      "Market research and public opinion polling"
+    ],
     "id": 370,
     "title": "E-Commerce Manager",
     "description": "E-Commerce Manager    \nDesired Conditions:\n\nAbility to analyze sales data and identify trends and opportunities.\nStrong verbal and written communication skills to work with cross-functional teams.\nUnderstanding of sales techniques and strategies to promote online sales.\nExperience managing e-commerce platforms and familiarity with online marketing tools.\nKnowledge of digital marketing principles and strategies to promote and market products.\nAbility to carefully review and manage product listing and customer data.\nAbility to identify and resolve e-commerce related issues.\nExperience in the field of interior decoration and textiles will be highly appreciated.\nBachelor's Degree in Business, Marketing or related field.\nKnowledge of MS Office and ERP (especially Entersoft) required.\nVery good knowledge of MS Office and good knowledge of ERP especially Entersoft.\nBasic knowledge and understanding of JSON (Java Script Object Notation) files\n\n \n \nThe Company offers:\n\nCompetitive salary and remuneration package.\nCompany car, mobile phone & laptop.\nPrivate health insurance.\nAdditional financial incentives based on results.\nA supportive and friendly work environment.\nContinuous growth and opportunities in a fast growing company.\nRapid career development.\n\nIf you meet the requirements, apply here",
@@ -873,6 +1080,12 @@
       "http://data.europa.eu/esco/occupation/13d1b2b4-99dd-44da-9734-c9f74bae18f7",
       "http://data.europa.eu/esco/occupation/4791e217-d607-40d5-9f84-df1d0a071cbc",
       "http://data.europa.eu/esco/occupation/e246eca2-2cec-45b4-ae76-aa1f37d07bc5"
+    ],
+    "sectors": [
+      "Activities of call centres",
+      "Business and other management consultancy activities",
+      "Activities of advertising agencies",
+      "Other reservation service and related activities"
     ],
     "id": 374,
     "title": "Human Resource Development - Full time",
@@ -907,6 +1120,13 @@
       "http://data.europa.eu/esco/occupation/719f101d-1866-49d3-8d5c-2256f606a8b9",
       "http://data.europa.eu/esco/occupation/cd7b838c-51f6-41ec-9067-bb974c0f991b",
       "http://data.europa.eu/esco/isco/C2431"
+    ],
+    "sectors": [
+      "Business and other management consultancy activities",
+      "Activities of advertising agencies",
+      "Advertising",
+      "Computer consultancy and computer facilities management activities",
+      "Public relations and communication activities"
     ],
     "id": 393,
     "title": "Internship in Marketing & Communications",
@@ -955,6 +1175,17 @@
       "http://data.europa.eu/esco/occupation/b1ab3572-fa2f-4624-8eac-3c3d986d237b",
       "http://data.europa.eu/esco/occupation/b55718eb-e8ff-4485-8ad0-bbac32cbd77b",
       "http://data.europa.eu/esco/isco/C2432"
+    ],
+    "sectors": [
+      "Radio broadcasting and audio distribution activities",
+      "Television programming, broadcasting and video distribution activities",
+      "Research and experimental development on social sciences and humanities",
+      "Organisation of conventions and trade shows",
+      "Activities of advertising agencies",
+      "Tertiary education",
+      "Other monetary intermediation",
+      "Activities of head offices",
+      "Publishing of journals and periodicals"
     ],
     "id": 427,
     "title": "Account Executive (Corporate Communication & PR)",
