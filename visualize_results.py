@@ -69,7 +69,6 @@ print("Saved: jobs_with_without_microskills.png")
 
 # TOP 10 MICROSKILLS
 
-
 # Ορίζει πόσα από τα συχνότερα microskills θα εμφανιστούν στο γράφημα.
 TOP_N = 10
 
@@ -104,7 +103,6 @@ print("Saved: top_10_microskills.png")
 
 # TOP CATEGORIES
 
-
 # Δημιουργεί γράφημα συχνοτήτων για τις κατηγορίες microskills.
 plt.figure(figsize=(12, 7))
 
@@ -132,18 +130,27 @@ print("Saved: microskill_categories.png")
 
 # DISTRIBUTION OF MICROSKILLS PER JOB
 
+# Υπολογίζει πόσες αγγελίες έχουν 0, 1, 2, 3 κτλ. microskills.
+microskills_per_job_counts = (
+    matcher_df["detected_microskills_count"]
+    .value_counts()
+    .sort_index()
+)
 
-# Δημιουργεί ιστόγραμμα που δείχνει πόσα microskills ανιχνεύθηκαν ανά αγγελία.
+# Δημιουργεί ραβδόγραμμα που δείχνει πόσα microskills ανιχνεύθηκαν ανά αγγελία.
 plt.figure(figsize=(10, 6))
 
-plt.hist(
-    matcher_df["detected_microskills_count"],
-    bins=range(0, 8)
+plt.bar(
+    microskills_per_job_counts.index,
+    microskills_per_job_counts.values
 )
 
 plt.xlabel("Detected Microskills per Job")
 plt.ylabel("Number of Jobs")
 plt.title("Distribution of Microskills per Job")
+
+# Εμφανίζει στον οριζόντιο άξονα τις διακριτές τιμές των microskills ανά αγγελία.
+plt.xticks(microskills_per_job_counts.index)
 
 plt.savefig(
     OUTPUT_DIR / "microskills_distribution.png",
@@ -157,7 +164,6 @@ print("Saved: microskills_distribution.png")
 
 
 # LANGUAGE DISTRIBUTION
-
 
 # Υπολογίζει πόσες αγγελίες ανήκουν σε κάθε γλωσσική κατηγορία.
 language_counts = cleaned_df["detected_language"].value_counts()
